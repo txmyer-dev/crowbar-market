@@ -1,0 +1,9 @@
+services:
+  crowbar-market:
+    build: .
+    container_name: crowbar-market
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    labels:
+      - "coolify.managed=false"
