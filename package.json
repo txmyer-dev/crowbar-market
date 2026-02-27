@@ -1,0 +1,14 @@
+{
+  "name": "crowbar-market",
+  "version": "1.0.0",
+  "description": "Plugin marketplace for PAI — more leverage for your AI",
+  "type": "module",
+  "scripts": {
+    "seed": "bun scripts/seed-registry.ts",
+    "build": "bun build cli/src/index.ts --compile --outfile cb",
+    "dev": "bun cli/src/index.ts",
+    "build-site": "bun cli/src/index.ts build-site"
+  },
+  "author": "txmyer-dev",
+  "license": "MIT"
+}
