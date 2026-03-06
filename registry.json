@@ -8376,6 +8376,777 @@
           "@gongrzhe/server-gmail-autoauth-mcp"
         ]
       }
+    },
+    "crowbar/contentrepurpose": {
+      "name": "ContentRepurpose",
+      "slug": "crowbar/contentrepurpose",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Repurpose transcripts and content into platform-native formats (tweets, LinkedIn, newsletter) in parallel",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/Ekko",
+        "path": "skills/ContentRepurpose",
+        "ref": "main"
+      },
+      "tags": [
+        "content",
+        "repurpose",
+        "social media",
+        "newsletter",
+        "tweets",
+        "linkedin"
+      ],
+      "installTarget": "~/.claude/skills/ContentRepurpose/",
+      "configTarget": "skill-index.json",
+      "tier": "on-demand",
+      "triggers": [
+        "repurpose",
+        "turn into tweets",
+        "linkedin post from",
+        "newsletter from transcript"
+      ]
+    },
+    "crowbar/inboxcleaner": {
+      "name": "InboxCleaner",
+      "slug": "crowbar/inboxcleaner",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Autonomous email triage — classifies unread emails as important or not, marks unimportant as read",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/Ekko",
+        "path": "skills/InboxCleaner",
+        "ref": "main"
+      },
+      "tags": [
+        "email",
+        "inbox",
+        "triage",
+        "gmail",
+        "cleanup"
+      ],
+      "installTarget": "~/.claude/skills/InboxCleaner/",
+      "configTarget": "skill-index.json",
+      "tier": "on-demand",
+      "triggers": [
+        "clean inbox",
+        "triage email",
+        "inbox zero",
+        "email cleanup"
+      ]
+    },
+    "crowbar/ab-test-setup": {
+      "name": "A/B Test Setup",
+      "slug": "crowbar/ab-test-setup",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions A/B test, split test, experiment, test this change, variant copy, multivariate test, or hypothesis.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/ab-test-setup",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "experimentation", "ab-testing", "analytics"],
+      "installTarget": "~/.claude/skills/marketing/ab-test-setup/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["a/b test", "split test", "experiment", "multivariate test", "hypothesis"]
+    },
+    "crowbar/ad-creative": {
+      "name": "Ad Creative",
+      "slug": "crowbar/ad-creative",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/ad-creative",
+        "ref": "main"
+      },
+      "tags": ["marketing", "ads", "creative", "copywriting", "paid-media"],
+      "installTarget": "~/.claude/skills/marketing/ad-creative/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["ad copy", "ad creative", "generate headlines", "RSA headlines", "bulk ad copy", "creative testing"]
+    },
+    "crowbar/ai-seo": {
+      "name": "AI SEO",
+      "slug": "crowbar/ai-seo",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Covers AI Overviews, ChatGPT, Perplexity, and answer engine optimization.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/ai-seo",
+        "ref": "main"
+      },
+      "tags": ["marketing", "seo", "ai", "llm", "search", "aeo", "geo"],
+      "installTarget": "~/.claude/skills/marketing/ai-seo/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["AI SEO", "AEO", "GEO", "LLMO", "answer engine optimization", "AI Overviews", "optimize for ChatGPT", "AI citations"]
+    },
+    "crowbar/analytics-tracking": {
+      "name": "Analytics Tracking",
+      "slug": "crowbar/analytics-tracking",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Covers GA4, GTM, event tracking, UTM parameters, and tracking plans.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/analytics-tracking",
+        "ref": "main"
+      },
+      "tags": ["marketing", "analytics", "tracking", "ga4", "gtm", "measurement"],
+      "installTarget": "~/.claude/skills/marketing/analytics-tracking/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["set up tracking", "GA4", "Google Analytics", "conversion tracking", "event tracking", "UTM parameters", "tag manager", "GTM"]
+    },
+    "crowbar/churn-prevention": {
+      "name": "Churn Prevention",
+      "slug": "crowbar/churn-prevention",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/churn-prevention",
+        "ref": "main"
+      },
+      "tags": ["marketing", "retention", "churn", "saas", "dunning", "cancel-flow"],
+      "installTarget": "~/.claude/skills/marketing/churn-prevention/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["churn", "cancel flow", "save offer", "dunning", "failed payment recovery", "win-back", "retention"]
+    },
+    "crowbar/cold-email": {
+      "name": "Cold Email",
+      "slug": "crowbar/cold-email",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/cold-email",
+        "ref": "main"
+      },
+      "tags": ["marketing", "email", "outreach", "sales", "prospecting", "sdr"],
+      "installTarget": "~/.claude/skills/marketing/cold-email/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["cold email", "prospecting email", "cold outreach", "sales email", "SDR email", "follow-up sequence"]
+    },
+    "crowbar/competitor-alternatives": {
+      "name": "Competitor & Alternative Pages",
+      "slug": "crowbar/competitor-alternatives",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Covers singular alternative, plural alternatives, you vs competitor, and competitor vs competitor formats.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/competitor-alternatives",
+        "ref": "main"
+      },
+      "tags": ["marketing", "seo", "competitor", "comparison", "landing-pages"],
+      "installTarget": "~/.claude/skills/marketing/competitor-alternatives/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["alternative page", "vs page", "competitor comparison", "comparison page", "competitive landing pages"]
+    },
+    "crowbar/content-strategy": {
+      "name": "Content Strategy",
+      "slug": "crowbar/content-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Covers topic clusters, content pillars, and buyer-stage keyword research.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/content-strategy",
+        "ref": "main"
+      },
+      "tags": ["marketing", "content", "strategy", "seo", "planning", "topic-clusters"],
+      "installTarget": "~/.claude/skills/marketing/content-strategy/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["content strategy", "what should I write about", "content ideas", "blog strategy", "topic clusters", "content planning"]
+    },
+    "crowbar/copy-editing": {
+      "name": "Copy Editing",
+      "slug": "crowbar/copy-editing",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to edit, review, or improve existing marketing copy. Provides a systematic seven-sweep approach to editing marketing copy through multiple focused passes.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/copy-editing",
+        "ref": "main"
+      },
+      "tags": ["marketing", "copywriting", "editing", "review", "cro"],
+      "installTarget": "~/.claude/skills/marketing/copy-editing/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["edit this copy", "review my copy", "copy feedback", "proofread", "polish this", "copy sweep"]
+    },
+    "crowbar/copywriting": {
+      "name": "Copywriting",
+      "slug": "crowbar/copywriting",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/copywriting",
+        "ref": "main"
+      },
+      "tags": ["marketing", "copywriting", "landing-pages", "conversion", "cta"],
+      "installTarget": "~/.claude/skills/marketing/copywriting/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["write copy for", "improve this copy", "rewrite this page", "marketing copy", "headline help", "CTA copy"]
+    },
+    "crowbar/email-sequence": {
+      "name": "Email Sequence",
+      "slug": "crowbar/email-sequence",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Covers welcome, nurture, onboarding, and re-engagement sequences.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/email-sequence",
+        "ref": "main"
+      },
+      "tags": ["marketing", "email", "automation", "drip", "lifecycle", "onboarding"],
+      "installTarget": "~/.claude/skills/marketing/email-sequence/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["email sequence", "drip campaign", "nurture sequence", "onboarding emails", "welcome sequence", "email automation"]
+    },
+    "crowbar/form-cro": {
+      "name": "Form CRO",
+      "slug": "crowbar/form-cro",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, or checkout forms.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/form-cro",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "forms", "conversion", "lead-capture"],
+      "installTarget": "~/.claude/skills/marketing/form-cro/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["form optimization", "lead form", "form friction", "form fields", "form completion rate", "contact form"]
+    },
+    "crowbar/free-tool-strategy": {
+      "name": "Free Tool Strategy",
+      "slug": "crowbar/free-tool-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Bridges engineering and marketing.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/free-tool-strategy",
+        "ref": "main"
+      },
+      "tags": ["marketing", "engineering", "lead-generation", "seo", "tools"],
+      "installTarget": "~/.claude/skills/marketing/free-tool-strategy/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["engineering as marketing", "free tool", "marketing tool", "calculator", "generator", "lead gen tool"]
+    },
+    "crowbar/launch-strategy": {
+      "name": "Launch Strategy",
+      "slug": "crowbar/launch-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Covers phased launches, channel strategy, Product Hunt, and ongoing launch momentum.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/launch-strategy",
+        "ref": "main"
+      },
+      "tags": ["marketing", "launch", "product-hunt", "go-to-market", "announcements"],
+      "installTarget": "~/.claude/skills/marketing/launch-strategy/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["launch", "Product Hunt", "feature release", "go-to-market", "beta launch", "early access", "waitlist"]
+    },
+    "crowbar/marketing-ideas": {
+      "name": "Marketing Ideas",
+      "slug": "crowbar/marketing-ideas",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Provides 139 proven marketing approaches organized by category.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/marketing-ideas",
+        "ref": "main"
+      },
+      "tags": ["marketing", "strategy", "growth", "saas", "tactics", "ideas"],
+      "installTarget": "~/.claude/skills/marketing/marketing-ideas/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["marketing ideas", "growth ideas", "how to market", "marketing strategies", "marketing tactics", "ways to promote"]
+    },
+    "crowbar/marketing-psychology": {
+      "name": "Marketing Psychology",
+      "slug": "crowbar/marketing-psychology",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Provides 70+ mental models organized for marketing application.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/marketing-psychology",
+        "ref": "main"
+      },
+      "tags": ["marketing", "psychology", "persuasion", "behavioral-science", "mental-models"],
+      "installTarget": "~/.claude/skills/marketing/marketing-psychology/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["psychology", "mental models", "cognitive bias", "persuasion", "behavioral science", "why people buy"]
+    },
+    "crowbar/onboarding-cro": {
+      "name": "Onboarding CRO",
+      "slug": "crowbar/onboarding-cro",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/onboarding-cro",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "onboarding", "activation", "ux", "saas"],
+      "installTarget": "~/.claude/skills/marketing/onboarding-cro/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["onboarding flow", "activation rate", "user activation", "first-run experience", "empty states", "onboarding checklist", "aha moment"]
+    },
+    "crowbar/page-cro": {
+      "name": "Page CRO",
+      "slug": "crowbar/page-cro",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/page-cro",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "conversion", "landing-pages", "optimization"],
+      "installTarget": "~/.claude/skills/marketing/page-cro/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["CRO", "conversion rate optimization", "this page isn't converting", "improve conversions", "why isn't this page working"]
+    },
+    "crowbar/paid-ads": {
+      "name": "Paid Ads",
+      "slug": "crowbar/paid-ads",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta, LinkedIn, Twitter/X, or other ad platforms. Covers campaign strategy, audience targeting, and optimization.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/paid-ads",
+        "ref": "main"
+      },
+      "tags": ["marketing", "ads", "ppc", "paid-media", "google-ads", "meta-ads", "linkedin-ads"],
+      "installTarget": "~/.claude/skills/marketing/paid-ads/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["PPC", "paid media", "ROAS", "CPA", "ad campaign", "retargeting", "audience targeting"]
+    },
+    "crowbar/paywall-upgrade-cro": {
+      "name": "Paywall & Upgrade CRO",
+      "slug": "crowbar/paywall-upgrade-cro",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Focuses on in-product upgrade moments where the user has already experienced value.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/paywall-upgrade-cro",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "paywall", "upsell", "freemium", "saas", "monetization"],
+      "installTarget": "~/.claude/skills/marketing/paywall-upgrade-cro/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["paywall", "upgrade screen", "upsell", "feature gate", "convert free to paid", "freemium conversion", "trial expiration"]
+    },
+    "crowbar/popup-cro": {
+      "name": "Popup CRO",
+      "slug": "crowbar/popup-cro",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/popup-cro",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "popups", "modals", "lead-capture", "exit-intent"],
+      "installTarget": "~/.claude/skills/marketing/popup-cro/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["exit intent", "popup conversions", "modal optimization", "lead capture popup", "email popup", "announcement banner"]
+    },
+    "crowbar/pricing-strategy": {
+      "name": "Pricing Strategy",
+      "slug": "crowbar/pricing-strategy",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Covers pricing research, tier structure, and packaging strategy.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/pricing-strategy",
+        "ref": "main"
+      },
+      "tags": ["marketing", "pricing", "monetization", "saas", "packaging", "freemium"],
+      "installTarget": "~/.claude/skills/marketing/pricing-strategy/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["pricing", "pricing tiers", "freemium", "free trial", "packaging", "price increase", "value metric", "willingness to pay"]
+    },
+    "crowbar/product-marketing-context": {
+      "name": "Product Marketing Context",
+      "slug": "crowbar/product-marketing-context",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create or update their product marketing context document. Creates .agents/product-marketing-context.md that other marketing skills reference.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/product-marketing-context",
+        "ref": "main"
+      },
+      "tags": ["marketing", "positioning", "context", "product-marketing", "foundation"],
+      "installTarget": "~/.claude/skills/marketing/product-marketing-context/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["product context", "marketing context", "set up context", "positioning", "product marketing"]
+    },
+    "crowbar/programmatic-seo": {
+      "name": "Programmatic SEO",
+      "slug": "crowbar/programmatic-seo",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Covers directory pages, location pages, comparison pages, and integration pages.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/programmatic-seo",
+        "ref": "main"
+      },
+      "tags": ["marketing", "seo", "programmatic", "templates", "scale", "automation"],
+      "installTarget": "~/.claude/skills/marketing/programmatic-seo/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["programmatic SEO", "template pages", "pages at scale", "directory pages", "location pages", "comparison pages"]
+    },
+    "crowbar/referral-program": {
+      "name": "Referral Program",
+      "slug": "crowbar/referral-program",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Covers program design, incentive structure, and growth optimization.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/referral-program",
+        "ref": "main"
+      },
+      "tags": ["marketing", "referral", "affiliate", "viral", "word-of-mouth", "growth"],
+      "installTarget": "~/.claude/skills/marketing/referral-program/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["referral", "affiliate", "ambassador", "word of mouth", "viral loop", "refer a friend", "partner program"]
+    },
+    "crowbar/revops": {
+      "name": "RevOps",
+      "slug": "crowbar/revops",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Covers lead scoring, lead routing, CRM automation, and data hygiene.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/revops",
+        "ref": "main"
+      },
+      "tags": ["marketing", "revops", "sales", "crm", "lead-scoring", "pipeline"],
+      "installTarget": "~/.claude/skills/marketing/revops/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["RevOps", "revenue operations", "lead scoring", "lead routing", "MQL", "SQL", "pipeline stages", "CRM automation"]
+    },
+    "crowbar/sales-enablement": {
+      "name": "Sales Enablement",
+      "slug": "crowbar/sales-enablement",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/sales-enablement",
+        "ref": "main"
+      },
+      "tags": ["marketing", "sales", "enablement", "pitch-deck", "collateral", "demo"],
+      "installTarget": "~/.claude/skills/marketing/sales-enablement/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["sales deck", "pitch deck", "one-pager", "objection handling", "ROI calculator", "demo script", "sales playbook"]
+    },
+    "crowbar/schema-markup": {
+      "name": "Schema Markup",
+      "slug": "crowbar/schema-markup",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Covers JSON-LD, rich snippets, FAQ schema, product schema, and more.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/schema-markup",
+        "ref": "main"
+      },
+      "tags": ["marketing", "seo", "schema", "structured-data", "json-ld", "rich-snippets"],
+      "installTarget": "~/.claude/skills/marketing/schema-markup/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["schema markup", "structured data", "JSON-LD", "rich snippets", "schema.org", "FAQ schema", "product schema"]
+    },
+    "crowbar/seo-audit": {
+      "name": "SEO Audit",
+      "slug": "crowbar/seo-audit",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Covers technical SEO, on-page SEO, meta tags, and SEO health checks.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/seo-audit",
+        "ref": "main"
+      },
+      "tags": ["marketing", "seo", "audit", "technical-seo", "on-page", "meta-tags"],
+      "installTarget": "~/.claude/skills/marketing/seo-audit/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["SEO audit", "technical SEO", "why am I not ranking", "SEO issues", "on-page SEO", "meta tags review", "SEO health check"]
+    },
+    "crowbar/signup-flow-cro": {
+      "name": "Signup Flow CRO",
+      "slug": "crowbar/signup-flow-cro",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/signup-flow-cro",
+        "ref": "main"
+      },
+      "tags": ["marketing", "cro", "signup", "registration", "onboarding", "conversion"],
+      "installTarget": "~/.claude/skills/marketing/signup-flow-cro/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["signup conversions", "registration friction", "signup form optimization", "free trial signup", "reduce signup dropoff"]
+    },
+    "crowbar/site-architecture": {
+      "name": "Site Architecture",
+      "slug": "crowbar/site-architecture",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/site-architecture",
+        "ref": "main"
+      },
+      "tags": ["marketing", "architecture", "navigation", "url-structure", "information-architecture", "sitemap"],
+      "installTarget": "~/.claude/skills/marketing/site-architecture/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["sitemap", "site structure", "page hierarchy", "information architecture", "navigation design", "URL structure", "internal linking"]
+    },
+    "crowbar/social-content": {
+      "name": "Social Content",
+      "slug": "crowbar/social-content",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms.",
+      "author": {
+        "name": "Corey Haines",
+        "github": "coreyhaines31"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "skills/marketing/social-content",
+        "ref": "main"
+      },
+      "tags": ["marketing", "social-media", "content", "linkedin", "twitter", "engagement"],
+      "installTarget": "~/.claude/skills/marketing/social-content/",
+      "configTarget": "skill-index.json",
+      "tier": "optional",
+      "triggers": ["LinkedIn post", "Twitter thread", "social media", "content calendar", "social scheduling", "viral content"]
     }
   }
 }
