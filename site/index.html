@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Crowbar Market</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <style>
     :root {
       --bg: #0d1117;
@@ -193,20 +192,46 @@
     <p>Plugin marketplace for PAI &mdash; more leverage for your AI</p>
   </div>
   <div class="container">
-    <div class="stats">331 plugins &bull; Registry v1.0.0</div>
+    <div class="stats">376 plugins &bull; Registry v1.0.0</div>
     <div class="controls">
       <input type="text" class="search-box" placeholder="Search plugins..." id="search">
       <div class="pills">
         <button class="pill active" data-filter="all">All</button>
         <button class="pill" data-filter="agent">agent <span class="count">12</span></button>
-          <button class="pill" data-filter="fabric-pattern">fabric-pattern <span class="count">260</span></button>
+          <button class="pill" data-filter="fabric-pattern">fabric-pattern <span class="count">252</span></button>
           <button class="pill" data-filter="hook">hook <span class="count">25</span></button>
           <button class="pill" data-filter="mcp-server">mcp-server <span class="count">2</span></button>
-          <button class="pill" data-filter="skill">skill <span class="count">32</span></button>
+          <button class="pill" data-filter="skill">skill <span class="count">85</span></button>
       </div>
     </div>
     <div class="grid" id="grid">
       
+      <div class="card" data-type="skill" data-search="a/b test setup when the user wants to plan, design, or implement an a/b test or experiment. also use when the user mentions a/b test, split test, experiment, test this change, variant copy, multivariate test, or hypothesis. marketing cro experimentation ab-testing analytics">
+        <div class="card-header">
+          <span class="card-name">A/B Test Setup</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions A/B test, split test, experiment, test this change, variant copy, multivariate test, or hypothesis.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/ab-test-setup</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">experimentation</span><span class="tag">ab-testing</span><span class="tag">analytics</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="ad creative when the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. marketing ads creative copywriting paid-media">
+        <div class="card-header">
+          <span class="card-name">Ad Creative</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/ad-creative</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">ads</span><span class="tag">creative</span><span class="tag">copywriting</span><span class="tag">paid-media</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="agentexecutionguard agentexecutionguard event hook hook event">
         <div class="card-header">
           <span class="card-name">AgentExecutionGuard</span>
@@ -272,6 +297,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="ai seo when the user wants to optimize content for ai search engines, get cited by llms, or appear in ai-generated answers. covers ai overviews, chatgpt, perplexity, and answer engine optimization. marketing seo ai llm search aeo geo">
+        <div class="card-header">
+          <span class="card-name">AI SEO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Covers AI Overviews, ChatGPT, Perplexity, and answer engine optimization.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/ai-seo</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">seo</span><span class="tag">ai</span><span class="tag">llm</span><span class="tag">search</span><span class="tag">aeo</span><span class="tag">geo</span></div>
+      </div>
+
       <div class="card" data-type="agent" data-search="algorithm algorithm agent definition agent algorithm">
         <div class="card-header">
           <span class="card-name">Algorithm</span>
@@ -296,6 +334,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="analytics tracking when the user wants to set up, improve, or audit analytics tracking and measurement. covers ga4, gtm, event tracking, utm parameters, and tracking plans. marketing analytics tracking ga4 gtm measurement">
+        <div class="card-header">
+          <span class="card-name">Analytics Tracking</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to set up, improve, or audit analytics tracking and measurement. Covers GA4, GTM, event tracking, UTM parameters, and tracking plans.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/analytics-tracking</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">analytics</span><span class="tag">tracking</span><span class="tag">ga4</span><span class="tag">gtm</span><span class="tag">measurement</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="analyze_answers you are a phd expert on the subject defined in the input section provided below. fabric pattern analyze answers">
@@ -922,6 +973,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">ask</span><span class="tag">uncle</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="asyncworker dispatch tasks to the vps async worker for background processing async vps task remote task background work">
+        <div class="card-header">
+          <span class="card-name">AsyncWorker</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Dispatch tasks to the VPS async worker for background processing</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/asyncworker</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">async</span><span class="tag">VPS task</span><span class="tag">remote task</span><span class="tag">background work</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="autoworkcreation autoworkcreation event hook hook event">
         <div class="card-header">
           <span class="card-name">AutoWorkCreation</span>
@@ -1026,6 +1090,19 @@
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="churn prevention when the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. marketing retention churn saas dunning cancel-flow">
+        <div class="card-header">
+          <span class="card-name">Churn Prevention</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/churn-prevention</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">retention</span><span class="tag">churn</span><span class="tag">saas</span><span class="tag">dunning</span><span class="tag">cancel-flow</span></div>
+      </div>
+
       <div class="card" data-type="agent" data-search="clauderesearcher clauderesearcher agent definition agent clauderesearcher">
         <div class="card-header">
           <span class="card-name">ClaudeResearcher</span>
@@ -1050,6 +1127,32 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">clean</span><span class="tag">text</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="cloudflare deploy cloudflare workers and pages sites cloudflare worker deploy pages">
+        <div class="card-header">
+          <span class="card-name">Cloudflare</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Deploy Cloudflare Workers and Pages sites</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/cloudflare</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">cloudflare</span><span class="tag">worker</span><span class="tag">deploy</span><span class="tag">pages</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="codereview anti-sycophantic code review reception protocol code review pr feedback review comments">
+        <div class="card-header">
+          <span class="card-name">CodeReview</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Anti-sycophantic code review reception protocol</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/codereview</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">code review</span><span class="tag">PR feedback</span><span class="tag">review comments</span></div>
       </div>
 
       <div class="card" data-type="agent" data-search="codexresearcher codexresearcher agent definition agent codexresearcher">
@@ -1078,6 +1181,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">coding</span><span class="tag">master</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="cold email write b2b cold emails and follow-up sequences that get replies. covers subject lines, opening lines, body copy, ctas, personalization, and multi-touch follow-up sequences. marketing email outreach sales prospecting sdr">
+        <div class="card-header">
+          <span class="card-name">Cold Email</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Write B2B cold emails and follow-up sequences that get replies. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/cold-email</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">email</span><span class="tag">outreach</span><span class="tag">sales</span><span class="tag">prospecting</span><span class="tag">sdr</span></div>
+      </div>
+
       <div class="card" data-type="fabric-pattern" data-search="compare_and_contrast please be brief. compare and contrast the list of items. fabric pattern compare and">
         <div class="card-header">
           <span class="card-name">compare_and_contrast</span>
@@ -1089,6 +1205,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">compare</span><span class="tag">and</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="competitor & alternative pages when the user wants to create competitor comparison or alternative pages for seo and sales enablement. covers singular alternative, plural alternatives, you vs competitor, and competitor vs competitor formats. marketing seo competitor comparison landing-pages">
+        <div class="card-header">
+          <span class="card-name">Competitor &amp; Alternative Pages</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Covers singular alternative, plural alternatives, you vs competitor, and competitor vs competitor formats.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/competitor-alternatives</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">seo</span><span class="tag">competitor</span><span class="tag">comparison</span><span class="tag">landing-pages</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="concall_summary you are an equity research analyst specializing in earnings and conference call analysis. your role involves carefully e fabric pattern concall summary">
@@ -1104,6 +1233,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">concall</span><span class="tag">summary</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="content strategy when the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. covers topic clusters, content pillars, and buyer-stage keyword research. marketing content strategy seo planning topic-clusters">
+        <div class="card-header">
+          <span class="card-name">Content Strategy</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Covers topic clusters, content pillars, and buyer-stage keyword research.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/content-strategy</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">content</span><span class="tag">strategy</span><span class="tag">seo</span><span class="tag">planning</span><span class="tag">topic-clusters</span></div>
+      </div>
+
       <div class="card" data-type="skill" data-search="contentformat platform-native content formatting and clipboard copy for linkedin, x, email, slack, notion, github format for clipboard linkedin format">
         <div class="card-header">
           <span class="card-name">ContentFormat</span>
@@ -1117,6 +1259,19 @@
         <div class="tags"><span class="tag">format for</span><span class="tag">clipboard</span><span class="tag">linkedin format</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="contentrepurpose repurpose transcripts and content into platform-native formats (tweets, linkedin, newsletter) in parallel content repurpose social media newsletter tweets linkedin">
+        <div class="card-header">
+          <span class="card-name">ContentRepurpose</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Repurpose transcripts and content into platform-native formats (tweets, LinkedIn, newsletter) in parallel</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/contentrepurpose</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">content</span><span class="tag">repurpose</span><span class="tag">social media</span><span class="tag">newsletter</span><span class="tag">tweets</span><span class="tag">linkedin</span></div>
+      </div>
+
       <div class="card" data-type="fabric-pattern" data-search="convert_to_markdown <identity> fabric pattern convert markdown">
         <div class="card-header">
           <span class="card-name">convert_to_markdown</span>
@@ -1128,6 +1283,32 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">convert</span><span class="tag">markdown</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="copy editing when the user wants to edit, review, or improve existing marketing copy. provides a systematic seven-sweep approach to editing marketing copy through multiple focused passes. marketing copywriting editing review cro">
+        <div class="card-header">
+          <span class="card-name">Copy Editing</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to edit, review, or improve existing marketing copy. Provides a systematic seven-sweep approach to editing marketing copy through multiple focused passes.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/copy-editing</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">copywriting</span><span class="tag">editing</span><span class="tag">review</span><span class="tag">cro</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="copywriting when the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. marketing copywriting landing-pages conversion cta">
+        <div class="card-header">
+          <span class="card-name">Copywriting</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/copywriting</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">copywriting</span><span class="tag">landing-pages</span><span class="tag">conversion</span><span class="tag">cta</span></div>
       </div>
 
       <div class="card" data-type="skill" data-search="council multi-agent debate system for perspective analysis council debate perspectives">
@@ -1180,19 +1361,6 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">create</span><span class="tag">jobs</span></div>
-      </div>
-
-      <div class="card" data-type="fabric-pattern" data-search="create_aphorisms you are an expert finder and printer of existing, known aphorisms. fabric pattern create aphorisms">
-        <div class="card-header">
-          <span class="card-name">create_aphorisms</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">You are an expert finder and printer of existing, known aphorisms.</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-create_aphorisms</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">create</span><span class="tag">aphorisms</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="create_art_prompt you are an expert artist and ai whisperer. you know how to take a concept and give it to an ai and have it create the pe fabric pattern create art">
@@ -1858,19 +2026,6 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">create</span><span class="tag">tags</span></div>
       </div>
 
-      <div class="card" data-type="fabric-pattern" data-search="create_threat_model you are an expert in risk and threat management and cybersecurity. you specialize in creating simple, narrative-based, t fabric pattern create threat">
-        <div class="card-header">
-          <span class="card-name">create_threat_model</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">You are an expert in risk and threat management and cybersecurity. You specialize in creating simple, narrative-based, t</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-create_threat_model</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">create</span><span class="tag">threat</span></div>
-      </div>
-
       <div class="card" data-type="fabric-pattern" data-search="create_threat_scenarios you are an expert in risk and threat management and cybersecurity. you specialize in creating simple, narrative-based, t fabric pattern create threat">
         <div class="card-header">
           <span class="card-name">create_threat_scenarios</span>
@@ -2038,6 +2193,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">document</span><span class="tag">process file</span><span class="tag">analyze document</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="email sequence when the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. covers welcome, nurture, onboarding, and re-engagement sequences. marketing email automation drip lifecycle onboarding">
+        <div class="card-header">
+          <span class="card-name">Email Sequence</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Covers welcome, nurture, onboarding, and re-engagement sequences.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/email-sequence</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">email</span><span class="tag">automation</span><span class="tag">drip</span><span class="tag">lifecycle</span><span class="tag">onboarding</span></div>
       </div>
 
       <div class="card" data-type="agent" data-search="engineer engineer agent definition agent engineer">
@@ -2690,69 +2858,17 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">extract</span><span class="tag">videoid</span></div>
       </div>
 
-      <div class="card" data-type="fabric-pattern" data-search="extract_wisdom you extract surprising, insightful, and interesting information from text content. you are interested in insights relate fabric pattern extract wisdom">
+      <div class="card" data-type="skill" data-search="extractwisdom dynamic wisdom extraction that adapts sections to content extract wisdom analyze video analyze podcast key takeaways">
         <div class="card-header">
-          <span class="card-name">extract_wisdom</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
+          <span class="card-name">ExtractWisdom</span>
+          <span class="badge badge-skill">skill</span>
         </div>
-        <p class="card-desc">You extract surprising, insightful, and interesting information from text content. You are interested in insights relate</p>
+        <p class="card-desc">Dynamic wisdom extraction that adapts sections to content</p>
         <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-extract_wisdom</code>
+          <code class="install-cmd">cb install crowbar/extractwisdom</code>
           <span class="version">v1.0.0</span>
         </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">extract</span><span class="tag">wisdom</span></div>
-      </div>
-
-      <div class="card" data-type="fabric-pattern" data-search="extract_wisdom_agents you are an advanced ai system that coordinates multiple teams of ai agents that extract surprising, insightful, and inte fabric pattern extract wisdom">
-        <div class="card-header">
-          <span class="card-name">extract_wisdom_agents</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">You are an advanced AI system that coordinates multiple teams of AI agents that extract surprising, insightful, and inte</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-extract_wisdom_agents</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">extract</span><span class="tag">wisdom</span></div>
-      </div>
-
-      <div class="card" data-type="fabric-pattern" data-search="extract_wisdom_dm // who you are fabric pattern extract wisdom">
-        <div class="card-header">
-          <span class="card-name">extract_wisdom_dm</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">// Who you are</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-extract_wisdom_dm</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">extract</span><span class="tag">wisdom</span></div>
-      </div>
-
-      <div class="card" data-type="fabric-pattern" data-search="extract_wisdom_nometa you extract surprising, insightful, and interesting information from text content. you are interested in insights relate fabric pattern extract wisdom">
-        <div class="card-header">
-          <span class="card-name">extract_wisdom_nometa</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">You extract surprising, insightful, and interesting information from text content. You are interested in insights relate</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-extract_wisdom_nometa</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">extract</span><span class="tag">wisdom</span></div>
-      </div>
-
-      <div class="card" data-type="fabric-pattern" data-search="extract_wisdom_with_attribution you extract surprising, insightful, and interesting information from text content. you are interested in insights relate fabric pattern extract wisdom">
-        <div class="card-header">
-          <span class="card-name">extract_wisdom_with_attribution</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">You extract surprising, insightful, and interesting information from text content. You are interested in insights relate</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-extract_wisdom_with_attribution</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">extract</span><span class="tag">wisdom</span></div>
+        <div class="tags"><span class="tag">extract wisdom</span><span class="tag">analyze video</span><span class="tag">analyze podcast</span><span class="tag">key takeaways</span></div>
       </div>
 
       <div class="card" data-type="skill" data-search="fabric intelligent prompt pattern system with 240+ patterns fabric fabric pattern extract wisdom">
@@ -2779,6 +2895,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fact check</span><span class="tag">verify claims</span><span class="tag">check statistics</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="finance personal finance management via hledger on vps finance hledger transactions balances">
+        <div class="card-header">
+          <span class="card-name">Finance</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Personal finance management via hledger on VPS</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/finance</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">finance</span><span class="tag">hledger</span><span class="tag">transactions</span><span class="tag">balances</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="find_female_life_partner you are a relationship and marriage and life happiness expert ai with a 4,227 iq. you take criteria given to you about w fabric pattern find female">
@@ -2846,6 +2975,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">fix</span><span class="tag">typos</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="form cro when the user wants to optimize any form that is not signup/registration — including lead capture forms, contact forms, demo request forms, application forms, or checkout forms. marketing cro forms conversion lead-capture">
+        <div class="card-header">
+          <span class="card-name">Form CRO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, or checkout forms.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/form-cro</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">forms</span><span class="tag">conversion</span><span class="tag">lead-capture</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="formatreminder formatreminder event hook hook event">
         <div class="card-header">
           <span class="card-name">FormatReminder</span>
@@ -2857,6 +2999,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="free tool strategy when the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, seo value, or brand awareness. bridges engineering and marketing. marketing engineering lead-generation seo tools">
+        <div class="card-header">
+          <span class="card-name">Free Tool Strategy</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Bridges engineering and marketing.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/free-tool-strategy</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">engineering</span><span class="tag">lead-generation</span><span class="tag">seo</span><span class="tag">tools</span></div>
       </div>
 
       <div class="card" data-type="skill" data-search="geminiresearch gemini cli fallback for blocked sites (reddit, x/twitter) gemini fetch reddit reddit thread">
@@ -2935,6 +3090,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">mcp</span><span class="tag">gmail</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="goodbye session exit protocol - saves state, updates soul/brain/heart goodbye end session session end">
+        <div class="card-header">
+          <span class="card-name">Goodbye</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Session exit protocol - saves state, updates Soul/Brain/Heart</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/goodbye</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">goodbye</span><span class="tag">end session</span><span class="tag">session end</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="greybeard_secure_prompt_engineer you are **greybeard**, a principal-level systems engineer and security reviewer with nasa-style mission assurance discip fabric pattern greybeard secure">
@@ -3119,6 +3287,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">improve</span><span class="tag">writing</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="inboxcleaner autonomous email triage — classifies unread emails as important or not, marks unimportant as read email inbox triage gmail cleanup">
+        <div class="card-header">
+          <span class="card-name">InboxCleaner</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Autonomous email triage — classifies unread emails as important or not, marks unimportant as read</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/inboxcleaner</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">email</span><span class="tag">inbox</span><span class="tag">triage</span><span class="tag">gmail</span><span class="tag">cleanup</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="integritycheck integritycheck event hook hook event">
         <div class="card-header">
           <span class="card-name">IntegrityCheck</span>
@@ -3143,6 +3324,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">agent</span><span class="tag">intern</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="iterativedepth multi-angle iterative exploration for deeper isc extraction iterative depth deep exploration multi-angle analysis">
+        <div class="card-header">
+          <span class="card-name">IterativeDepth</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Multi-angle iterative exploration for deeper ISC extraction</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/iterativedepth</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">iterative depth</span><span class="tag">deep exploration</span><span class="tag">multi-angle analysis</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="judge_output you are a honeycomb query evaluator with advanced capabilities to judge if a query is good or not. fabric pattern judge output">
@@ -3171,6 +3365,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">label</span><span class="tag">and</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="launch strategy when the user wants to plan a product launch, feature announcement, or release strategy. covers phased launches, channel strategy, product hunt, and ongoing launch momentum. marketing launch product-hunt go-to-market announcements">
+        <div class="card-header">
+          <span class="card-name">Launch Strategy</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to plan a product launch, feature announcement, or release strategy. Covers phased launches, channel strategy, Product Hunt, and ongoing launch momentum.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/launch-strategy</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">launch</span><span class="tag">product-hunt</span><span class="tag">go-to-market</span><span class="tag">announcements</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="loadcontext loadcontext event hook hook event">
         <div class="card-header">
           <span class="card-name">LoadContext</span>
@@ -3182,6 +3389,32 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="marketing ideas when the user needs marketing ideas, inspiration, or strategies for their saas or software product. provides 139 proven marketing approaches organized by category. marketing strategy growth saas tactics ideas">
+        <div class="card-header">
+          <span class="card-name">Marketing Ideas</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Provides 139 proven marketing approaches organized by category.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/marketing-ideas</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">strategy</span><span class="tag">growth</span><span class="tag">saas</span><span class="tag">tactics</span><span class="tag">ideas</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="marketing psychology when the user wants to apply psychological principles, mental models, or behavioral science to marketing. provides 70+ mental models organized for marketing application. marketing psychology persuasion behavioral-science mental-models">
+        <div class="card-header">
+          <span class="card-name">Marketing Psychology</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Provides 70+ mental models organized for marketing application.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/marketing-psychology</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">psychology</span><span class="tag">persuasion</span><span class="tag">behavioral-science</span><span class="tag">mental-models</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="md_callout identity and goal: fabric pattern callout">
@@ -3210,6 +3443,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">model</span><span class="tag">sherlock</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="notebooklm google notebooklm integration via notebooklm-py cli notebooklm notebook podcast audio overview">
+        <div class="card-header">
+          <span class="card-name">NotebookLM</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Google NotebookLM integration via notebooklm-py CLI</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/notebooklm</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">NotebookLM</span><span class="tag">notebook</span><span class="tag">podcast</span><span class="tag">audio overview</span></div>
+      </div>
+
       <div class="card" data-type="mcp-server" data-search="obsidian mcp server: obsidian mcp obsidian">
         <div class="card-header">
           <span class="card-name">obsidian</span>
@@ -3236,6 +3482,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">official</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="onboarding cro when the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. marketing cro onboarding activation ux saas">
+        <div class="card-header">
+          <span class="card-name">Onboarding CRO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/onboarding-cro</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">onboarding</span><span class="tag">activation</span><span class="tag">ux</span><span class="tag">saas</span></div>
+      </div>
+
       <div class="card" data-type="skill" data-search="osint open source intelligence gathering osint due diligence investigate">
         <div class="card-header">
           <span class="card-name">OSINT</span>
@@ -3249,12 +3508,25 @@
         <div class="tags"><span class="tag">osint</span><span class="tag">due diligence</span><span class="tag">investigate</span></div>
       </div>
 
-      <div class="card" data-type="skill" data-search="pai core pai system skill - the algorithm and system architecture algorithm pai system core system">
+      <div class="card" data-type="skill" data-search="page cro when the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. marketing cro conversion landing-pages optimization">
+        <div class="card-header">
+          <span class="card-name">Page CRO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/page-cro</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">conversion</span><span class="tag">landing-pages</span><span class="tag">optimization</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="pai core snap/pai system skill - the algorithm and system architecture algorithm pai system core system">
         <div class="card-header">
           <span class="card-name">PAI</span>
           <span class="badge badge-skill">skill</span>
         </div>
-        <p class="card-desc">Core PAI system skill - The Algorithm and system architecture</p>
+        <p class="card-desc">Core SNAP/PAI system skill - The Algorithm and system architecture</p>
         <div class="card-footer">
           <code class="install-cmd">cb install crowbar/pai</code>
           <span class="version">v1.0.0</span>
@@ -3262,17 +3534,69 @@
         <div class="tags"><span class="tag">algorithm</span><span class="tag">pai system</span><span class="tag">core system</span></div>
       </div>
 
-      <div class="card" data-type="skill" data-search="paiupgrade extract system improvements from content and monitor external sources upgrade improve system system upgrade">
+      <div class="card" data-type="skill" data-search="paid ads when the user wants help with paid advertising campaigns on google ads, meta, linkedin, twitter/x, or other ad platforms. covers campaign strategy, audience targeting, and optimization. marketing ads ppc paid-media google-ads meta-ads linkedin-ads">
+        <div class="card-header">
+          <span class="card-name">Paid Ads</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants help with paid advertising campaigns on Google Ads, Meta, LinkedIn, Twitter/X, or other ad platforms. Covers campaign strategy, audience targeting, and optimization.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/paid-ads</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">ads</span><span class="tag">ppc</span><span class="tag">paid-media</span><span class="tag">google-ads</span><span class="tag">meta-ads</span><span class="tag">linkedin-ads</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="paiupgrade snap system upgrade and improvement extraction upgrade improve system system upgrade">
         <div class="card-header">
           <span class="card-name">PAIUpgrade</span>
           <span class="badge badge-skill">skill</span>
         </div>
-        <p class="card-desc">Extract system improvements from content and monitor external sources</p>
+        <p class="card-desc">SNAP system upgrade and improvement extraction</p>
         <div class="card-footer">
           <code class="install-cmd">cb install crowbar/paiupgrade</code>
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">upgrade</span><span class="tag">improve system</span><span class="tag">system upgrade</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="paralleldispatch structured parallel agent dispatch for independent problems parallel dispatch fan-out concurrent">
+        <div class="card-header">
+          <span class="card-name">ParallelDispatch</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Structured parallel agent dispatch for independent problems</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/paralleldispatch</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">parallel</span><span class="tag">dispatch</span><span class="tag">fan-out</span><span class="tag">concurrent</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="parser parse urls, files, and videos to structured json parse extract url transcript youtube">
+        <div class="card-header">
+          <span class="card-name">Parser</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Parse URLs, files, and videos to structured JSON</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/parser</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">parse</span><span class="tag">extract</span><span class="tag">URL</span><span class="tag">transcript</span><span class="tag">YouTube</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="paywall & upgrade cro when the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. focuses on in-product upgrade moments where the user has already experienced value. marketing cro paywall upsell freemium saas monetization">
+        <div class="card-header">
+          <span class="card-name">Paywall &amp; Upgrade CRO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Focuses on in-product upgrade moments where the user has already experienced value.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/paywall-upgrade-cro</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">paywall</span><span class="tag">upsell</span><span class="tag">freemium</span><span class="tag">saas</span><span class="tag">monetization</span></div>
       </div>
 
       <div class="card" data-type="agent" data-search="pentester pentester agent definition agent pentester">
@@ -3286,6 +3610,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">agent</span><span class="tag">pentester</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="popup cro when the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. marketing cro popups modals lead-capture exit-intent">
+        <div class="card-header">
+          <span class="card-name">Popup CRO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/popup-cro</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">popups</span><span class="tag">modals</span><span class="tag">lead-capture</span><span class="tag">exit-intent</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="predict_person_actions you are an expert psychological analyst ai. your task is to assess and predict how an individual is likely to respond to fabric pattern predict person">
@@ -3314,6 +3651,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">prepare</span><span class="tag">strategy</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="pricing strategy when the user wants help with pricing decisions, packaging, or monetization strategy. covers pricing research, tier structure, and packaging strategy. marketing pricing monetization saas packaging freemium">
+        <div class="card-header">
+          <span class="card-name">Pricing Strategy</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants help with pricing decisions, packaging, or monetization strategy. Covers pricing research, tier structure, and packaging strategy.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/pricing-strategy</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">pricing</span><span class="tag">monetization</span><span class="tag">saas</span><span class="tag">packaging</span><span class="tag">freemium</span></div>
+      </div>
+
       <div class="card" data-type="skill" data-search="privateinvestigator ethical people-finding and reconnection find person locate reconnect">
         <div class="card-header">
           <span class="card-name">PrivateInvestigator</span>
@@ -3325,6 +3675,32 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">find person</span><span class="tag">locate</span><span class="tag">reconnect</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="product marketing context when the user wants to create or update their product marketing context document. creates .agents/product-marketing-context.md that other marketing skills reference. marketing positioning context product-marketing foundation">
+        <div class="card-header">
+          <span class="card-name">Product Marketing Context</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create or update their product marketing context document. Creates .agents/product-marketing-context.md that other marketing skills reference.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/product-marketing-context</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">positioning</span><span class="tag">context</span><span class="tag">product-marketing</span><span class="tag">foundation</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="programmatic seo when the user wants to create seo-driven pages at scale using templates and data. covers directory pages, location pages, comparison pages, and integration pages. marketing seo programmatic templates scale automation">
+        <div class="card-header">
+          <span class="card-name">Programmatic SEO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create SEO-driven pages at scale using templates and data. Covers directory pages, location pages, comparison pages, and integration pages.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/programmatic-seo</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">seo</span><span class="tag">programmatic</span><span class="tag">templates</span><span class="tag">scale</span><span class="tag">automation</span></div>
       </div>
 
       <div class="card" data-type="skill" data-search="prompting meta-prompting system for dynamic prompt generation prompting meta-prompt prompt template">
@@ -3470,19 +3846,6 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">raw</span><span class="tag">query</span></div>
       </div>
 
-      <div class="card" data-type="fabric-pattern" data-search="raycast fabric pattern: raycast fabric pattern raycast">
-        <div class="card-header">
-          <span class="card-name">raycast</span>
-          <span class="badge badge-fabric-pattern">fabric-pattern</span>
-        </div>
-        <p class="card-desc">Fabric pattern: raycast</p>
-        <div class="card-footer">
-          <code class="install-cmd">cb install crowbar/pattern-raycast</code>
-          <span class="version">v1.0.0</span>
-        </div>
-        <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">raycast</span></div>
-      </div>
-
       <div class="card" data-type="fabric-pattern" data-search="recommend_artists you are an edm expert who specializes in identifying artists that i will like based on the input of a list of artists at fabric pattern recommend artists">
         <div class="card-header">
           <span class="card-name">recommend_artists</span>
@@ -3561,6 +3924,19 @@
         <div class="tags"><span class="tag">red team</span><span class="tag">attack idea</span><span class="tag">stress test</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="referral program when the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. covers program design, incentive structure, and growth optimization. marketing referral affiliate viral word-of-mouth growth">
+        <div class="card-header">
+          <span class="card-name">Referral Program</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Covers program design, incentive structure, and growth optimization.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/referral-program</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">referral</span><span class="tag">affiliate</span><span class="tag">viral</span><span class="tag">word-of-mouth</span><span class="tag">growth</span></div>
+      </div>
+
       <div class="card" data-type="fabric-pattern" data-search="refine_design_document you are an expert in software, cloud and cybersecurity architecture. you specialize in creating clear, well written desi fabric pattern refine design">
         <div class="card-header">
           <span class="card-name">refine_design_document</span>
@@ -3585,6 +3961,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="remotion programmatic video creation with react and remotion video animation motion graphics react video">
+        <div class="card-header">
+          <span class="card-name">Remotion</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Programmatic video creation with React and Remotion</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/remotion</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">video</span><span class="tag">animation</span><span class="tag">motion graphics</span><span class="tag">React video</span></div>
       </div>
 
       <div class="card" data-type="skill" data-search="research web research using multiple ai research agents research web search find information">
@@ -3626,6 +4015,45 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">review</span><span class="tag">design</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="revops when the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. covers lead scoring, lead routing, crm automation, and data hygiene. marketing revops sales crm lead-scoring pipeline">
+        <div class="card-header">
+          <span class="card-name">RevOps</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Covers lead scoring, lead routing, CRM automation, and data hygiene.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/revops</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">revops</span><span class="tag">sales</span><span class="tag">crm</span><span class="tag">lead-scoring</span><span class="tag">pipeline</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="sales sales workflows - proposals, pricing, and outreach sales proposal pricing">
+        <div class="card-header">
+          <span class="card-name">Sales</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Sales workflows - proposals, pricing, and outreach</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/sales</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">sales</span><span class="tag">proposal</span><span class="tag">pricing</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="sales enablement when the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. marketing sales enablement pitch-deck collateral demo">
+        <div class="card-header">
+          <span class="card-name">Sales Enablement</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/sales-enablement</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">sales</span><span class="tag">enablement</span><span class="tag">pitch-deck</span><span class="tag">collateral</span><span class="tag">demo</span></div>
+      </div>
+
       <div class="card" data-type="fabric-pattern" data-search="sanitize_broken_html_to_markdown // who you are fabric pattern sanitize broken">
         <div class="card-header">
           <span class="card-name">sanitize_broken_html_to_markdown</span>
@@ -3637,6 +4065,32 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">sanitize</span><span class="tag">broken</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="schema markup when the user wants to add, fix, or optimize schema markup and structured data on their site. covers json-ld, rich snippets, faq schema, product schema, and more. marketing seo schema structured-data json-ld rich-snippets">
+        <div class="card-header">
+          <span class="card-name">Schema Markup</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to add, fix, or optimize schema markup and structured data on their site. Covers JSON-LD, rich snippets, FAQ schema, product schema, and more.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/schema-markup</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">seo</span><span class="tag">schema</span><span class="tag">structured-data</span><span class="tag">json-ld</span><span class="tag">rich-snippets</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="science universal thinking and iteration engine based on the scientific method think about experiment iterate hypothesis">
+        <div class="card-header">
+          <span class="card-name">Science</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Universal thinking and iteration engine based on the scientific method</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/science</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">think about</span><span class="tag">experiment</span><span class="tag">iterate</span><span class="tag">hypothesis</span></div>
       </div>
 
       <div class="card" data-type="skill" data-search="secupdates security news aggregation from multiple sources security news security updates sec updates">
@@ -3663,6 +4117,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="seo audit when the user wants to audit, review, or diagnose seo issues on their site. covers technical seo, on-page seo, meta tags, and seo health checks. marketing seo audit technical-seo on-page meta-tags">
+        <div class="card-header">
+          <span class="card-name">SEO Audit</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to audit, review, or diagnose SEO issues on their site. Covers technical SEO, on-page SEO, meta tags, and SEO health checks.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/seo-audit</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">seo</span><span class="tag">audit</span><span class="tag">technical-seo</span><span class="tag">on-page</span><span class="tag">meta-tags</span></div>
       </div>
 
       <div class="card" data-type="hook" data-search="sessionautoname sessionautoname event hook hook event">
@@ -3717,6 +4184,32 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">show</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="signup flow cro when the user wants to optimize signup, registration, account creation, or trial activation flows. marketing cro signup registration onboarding conversion">
+        <div class="card-header">
+          <span class="card-name">Signup Flow CRO</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to optimize signup, registration, account creation, or trial activation flows.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/signup-flow-cro</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">cro</span><span class="tag">signup</span><span class="tag">registration</span><span class="tag">onboarding</span><span class="tag">conversion</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="site architecture when the user wants to plan, map, or restructure their website's page hierarchy, navigation, url structure, or internal linking. marketing architecture navigation url-structure information-architecture sitemap">
+        <div class="card-header">
+          <span class="card-name">Site Architecture</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/site-architecture</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">architecture</span><span class="tag">navigation</span><span class="tag">url-structure</span><span class="tag">information-architecture</span><span class="tag">sitemap</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="skillguard skillguard event hook hook event">
         <div class="card-header">
           <span class="card-name">SkillGuard</span>
@@ -3728,6 +4221,32 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="snap snap core system skill - personal ai infrastructure architecture snap core system pai infrastructure">
+        <div class="card-header">
+          <span class="card-name">SNAP</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">SNAP core system skill - Personal AI Infrastructure architecture</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/snap</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">SNAP</span><span class="tag">core system</span><span class="tag">PAI infrastructure</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="social content when the user wants help creating, scheduling, or optimizing social media content for linkedin, twitter/x, instagram, tiktok, facebook, or other platforms. marketing social-media content linkedin twitter engagement">
+        <div class="card-header">
+          <span class="card-name">Social Content</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms.</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/social-content</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">marketing</span><span class="tag">social-media</span><span class="tag">content</span><span class="tag">linkedin</span><span class="tag">twitter</span><span class="tag">engagement</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="solve_with_cot you are an ai assistant designed to provide detailed, step-by-step responses. your outputs should follow this structure: fabric pattern solve with">
@@ -4001,6 +4520,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">summarize</span><span class="tag">rpg</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="systematicdebugging 4-phase systematic debugging process for root cause analysis debugging bug fix root cause test failure">
+        <div class="card-header">
+          <span class="card-name">SystematicDebugging</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">4-phase systematic debugging process for root cause analysis</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/systematicdebugging</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">debugging</span><span class="tag">bug fix</span><span class="tag">root cause</span><span class="tag">test failure</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="t_analyze_challenge_handling you are an expert at understanding deep context about a person or entity, and then creating wisdom from that context com fabric pattern analyze challenge">
@@ -4315,6 +4847,19 @@
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">ultimate</span><span class="tag">law</span></div>
       </div>
 
+      <div class="card" data-type="skill" data-search="update self-update protocol - refresh identity, context, and memory update self-update refresh context">
+        <div class="card-header">
+          <span class="card-name">Update</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Self-update protocol - refresh identity, context, and memory</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/update</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">update</span><span class="tag">self-update</span><span class="tag">refresh context</span></div>
+      </div>
+
       <div class="card" data-type="hook" data-search="updatecounts updatecounts event hook hook event">
         <div class="card-header">
           <span class="card-name">UpdateCounts</span>
@@ -4339,6 +4884,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="usmetrics us economic indicators - gdp, inflation, unemployment, gas prices gdp inflation unemployment economic metrics">
+        <div class="card-header">
+          <span class="card-name">USMetrics</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">US economic indicators - GDP, inflation, unemployment, gas prices</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/usmetrics</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">GDP</span><span class="tag">inflation</span><span class="tag">unemployment</span><span class="tag">economic metrics</span></div>
       </div>
 
       <div class="card" data-type="hook" data-search="voicegate voicegate event hook hook event">
@@ -4391,6 +4949,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">hook</span><span class="tag">event</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="worldthreatmodelharness persistent world model system across 11 time horizons for adversarial analysis threat model world model future analysis stress test">
+        <div class="card-header">
+          <span class="card-name">WorldThreatModelHarness</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Persistent world model system across 11 time horizons for adversarial analysis</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/worldthreatmodelharness</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">threat model</span><span class="tag">world model</span><span class="tag">future analysis</span><span class="tag">stress test</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="write_essay you are an expert on writing clear and illuminating essays on the topic of the input provided. fabric pattern write essay">
@@ -4495,6 +5066,19 @@
           <span class="version">v1.0.0</span>
         </div>
         <div class="tags"><span class="tag">fabric</span><span class="tag">pattern</span><span class="tag">write</span><span class="tag">semgrep</span></div>
+      </div>
+
+      <div class="card" data-type="skill" data-search="writestory layered fiction writing system using will storr's storytelling science write story fiction novel creative writing">
+        <div class="card-header">
+          <span class="card-name">WriteStory</span>
+          <span class="badge badge-skill">skill</span>
+        </div>
+        <p class="card-desc">Layered fiction writing system using Will Storr's storytelling science</p>
+        <div class="card-footer">
+          <code class="install-cmd">cb install crowbar/writestory</code>
+          <span class="version">v1.0.0</span>
+        </div>
+        <div class="tags"><span class="tag">write story</span><span class="tag">fiction</span><span class="tag">novel</span><span class="tag">creative writing</span></div>
       </div>
 
       <div class="card" data-type="fabric-pattern" data-search="youtube_summary you are an ai assistant specialized in creating concise, informative summaries of youtube video content based on transcr fabric pattern youtube summary">
