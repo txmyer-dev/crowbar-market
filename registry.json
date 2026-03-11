@@ -6,15 +6,15 @@
       "slug": "crowbar/pai",
       "type": "skill",
       "version": "1.0.0",
-      "description": "Core PAI system skill - The Algorithm and system architecture",
+      "description": "Core SNAP/PAI system skill - The Algorithm and system architecture",
       "author": {
         "name": "Tony",
         "github": "txmyer-dev"
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/PAI",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/SNAP",
         "ref": "main"
       },
       "tags": [
@@ -43,8 +43,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Research",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Research",
         "ref": "main"
       },
       "tags": [
@@ -73,8 +73,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Agents",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Agents",
         "ref": "main"
       },
       "tags": [
@@ -103,8 +103,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/AnnualReports",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/AnnualReports",
         "ref": "main"
       },
       "tags": [
@@ -133,8 +133,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Aphorisms",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Aphorisms",
         "ref": "main"
       },
       "tags": [
@@ -163,8 +163,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Apify",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Apify",
         "ref": "main"
       },
       "tags": [
@@ -193,8 +193,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Art",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Art",
         "ref": "main"
       },
       "tags": [
@@ -224,8 +224,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/BeCreative",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/BeCreative",
         "ref": "main"
       },
       "tags": [
@@ -254,8 +254,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/BrightData",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/BrightData",
         "ref": "main"
       },
       "tags": [
@@ -284,8 +284,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Browser",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Browser",
         "ref": "main"
       },
       "tags": [
@@ -314,8 +314,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Council",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Council",
         "ref": "main"
       },
       "tags": [
@@ -344,8 +344,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/CreateCLI",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/CreateCLI",
         "ref": "main"
       },
       "tags": [
@@ -374,8 +374,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/CreateSkill",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/CreateSkill",
         "ref": "main"
       },
       "tags": [
@@ -404,8 +404,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Documents",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Documents",
         "ref": "main"
       },
       "tags": [
@@ -434,8 +434,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Evals",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Evals",
         "ref": "main"
       },
       "tags": [
@@ -464,8 +464,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Fabric",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Fabric",
         "ref": "main"
       },
       "tags": [
@@ -494,8 +494,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/FirstPrinciples",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/FirstPrinciples",
         "ref": "main"
       },
       "tags": [
@@ -524,8 +524,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/OSINT",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/OSINT",
         "ref": "main"
       },
       "tags": [
@@ -547,15 +547,15 @@
       "slug": "crowbar/paiupgrade",
       "type": "skill",
       "version": "1.0.0",
-      "description": "Extract system improvements from content and monitor external sources",
+      "description": "SNAP system upgrade and improvement extraction",
       "author": {
         "name": "Tony",
         "github": "txmyer-dev"
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/PAIUpgrade",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/SNAPUpgrade",
         "ref": "main"
       },
       "tags": [
@@ -584,8 +584,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/PrivateInvestigator",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/PrivateInvestigator",
         "ref": "main"
       },
       "tags": [
@@ -614,8 +614,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Prompting",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Prompting",
         "ref": "main"
       },
       "tags": [
@@ -644,8 +644,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/PromptInjection",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/PromptInjection",
         "ref": "main"
       },
       "tags": [
@@ -674,8 +674,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Recon",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Recon",
         "ref": "main"
       },
       "tags": [
@@ -704,8 +704,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/RedTeam",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/RedTeam",
         "ref": "main"
       },
       "tags": [
@@ -734,8 +734,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/SECUpdates",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/SECUpdates",
         "ref": "main"
       },
       "tags": [
@@ -764,8 +764,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/Telos",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Telos",
         "ref": "main"
       },
       "tags": [
@@ -794,8 +794,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/VoiceServer",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/VoiceServer",
         "ref": "main"
       },
       "tags": [
@@ -825,8 +825,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/WebAssessment",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/WebAssessment",
         "ref": "main"
       },
       "tags": [
@@ -855,8 +855,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/FactCheck",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/FactCheck",
         "ref": "main"
       },
       "tags": [
@@ -888,8 +888,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/GeminiResearch",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/GeminiResearch",
         "ref": "main"
       },
       "tags": [
@@ -922,8 +922,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/ContentFormat",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/ContentFormat",
         "ref": "main"
       },
       "tags": [
@@ -957,8 +957,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/TrendingResearch",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/TrendingResearch",
         "ref": "main"
       },
       "tags": [
@@ -991,8 +991,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/AgentExecutionGuard.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/AgentExecutionGuard.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1014,8 +1014,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/AgentOutputCapture.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/AgentOutputCapture.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1037,8 +1037,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/AlgorithmTracker.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/AlgorithmTracker.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1060,8 +1060,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/AutoWorkCreation.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/AutoWorkCreation.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1083,8 +1083,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/CheckVersion.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/CheckVersion.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1106,8 +1106,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/ExplicitRatingCapture.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/ExplicitRatingCapture.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1129,8 +1129,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/FormatReminder.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/FormatReminder.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1152,8 +1152,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/ImplicitSentimentCapture.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/ImplicitSentimentCapture.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1175,8 +1175,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/IntegrityCheck.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/IntegrityCheck.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1198,8 +1198,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/LoadContext.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/LoadContext.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1221,8 +1221,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/QuestionAnswered.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/QuestionAnswered.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1244,8 +1244,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/RatingCapture.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/RatingCapture.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1267,8 +1267,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/RelationshipMemory.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/RelationshipMemory.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1290,8 +1290,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/SecurityValidator.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/SecurityValidator.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1313,8 +1313,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/SessionAutoName.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/SessionAutoName.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1336,8 +1336,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/SessionSummary.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/SessionSummary.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1359,8 +1359,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/SetQuestionTab.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/SetQuestionTab.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1382,8 +1382,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/SkillGuard.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/SkillGuard.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1405,8 +1405,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/SoulEvolution.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/SoulEvolution.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1428,8 +1428,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/StartupGreeting.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/StartupGreeting.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1451,8 +1451,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/StopOrchestrator.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/StopOrchestrator.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1474,8 +1474,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/UpdateCounts.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/UpdateCounts.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1497,8 +1497,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/UpdateTabTitle.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/UpdateTabTitle.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1520,8 +1520,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/VoiceGate.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/VoiceGate.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1543,8 +1543,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "hooks/WorkCompletionLearning.hook.ts",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/hooks/WorkCompletionLearning.hook.ts",
         "ref": "main"
       },
       "tags": [
@@ -1566,8 +1566,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Algorithm.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Algorithm.md",
         "ref": "main"
       },
       "tags": [
@@ -1589,8 +1589,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Architect.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Architect.md",
         "ref": "main"
       },
       "tags": [
@@ -1612,8 +1612,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Artist.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Artist.md",
         "ref": "main"
       },
       "tags": [
@@ -1635,8 +1635,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/ClaudeResearcher.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/ClaudeResearcher.md",
         "ref": "main"
       },
       "tags": [
@@ -1658,8 +1658,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/CodexResearcher.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/CodexResearcher.md",
         "ref": "main"
       },
       "tags": [
@@ -1681,8 +1681,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Designer.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Designer.md",
         "ref": "main"
       },
       "tags": [
@@ -1704,8 +1704,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Engineer.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Engineer.md",
         "ref": "main"
       },
       "tags": [
@@ -1727,8 +1727,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/GeminiResearcher.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/GeminiResearcher.md",
         "ref": "main"
       },
       "tags": [
@@ -1750,8 +1750,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/GrokResearcher.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/GrokResearcher.md",
         "ref": "main"
       },
       "tags": [
@@ -1773,8 +1773,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Intern.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Intern.md",
         "ref": "main"
       },
       "tags": [
@@ -1796,8 +1796,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/Pentester.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/Pentester.md",
         "ref": "main"
       },
       "tags": [
@@ -1819,8 +1819,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "agents/QATester.md",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/agents/QATester.md",
         "ref": "main"
       },
       "tags": [
@@ -1842,8 +1842,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/agility_story",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/agility-story.md",
         "ref": "main"
       },
       "tags": [
@@ -1867,8 +1867,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/ai",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/ai.md",
         "ref": "main"
       },
       "tags": [
@@ -1890,8 +1890,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_answers",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-answers.md",
         "ref": "main"
       },
       "tags": [
@@ -1915,8 +1915,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_bill",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-bill.md",
         "ref": "main"
       },
       "tags": [
@@ -1940,8 +1940,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_bill_short",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-bill-short.md",
         "ref": "main"
       },
       "tags": [
@@ -1965,8 +1965,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_candidates",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-candidates.md",
         "ref": "main"
       },
       "tags": [
@@ -1990,8 +1990,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_cfp_submission",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-cfp-submission.md",
         "ref": "main"
       },
       "tags": [
@@ -2015,8 +2015,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_claims",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-claims.md",
         "ref": "main"
       },
       "tags": [
@@ -2040,8 +2040,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_comments",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-comments.md",
         "ref": "main"
       },
       "tags": [
@@ -2065,8 +2065,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_debate",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-debate.md",
         "ref": "main"
       },
       "tags": [
@@ -2090,8 +2090,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_discord_structure",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-discord-structure.md",
         "ref": "main"
       },
       "tags": [
@@ -2115,8 +2115,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_email_headers",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-email-headers.md",
         "ref": "main"
       },
       "tags": [
@@ -2140,8 +2140,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_incident",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-incident.md",
         "ref": "main"
       },
       "tags": [
@@ -2165,8 +2165,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_interviewer_techniques",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-interviewer-techniques.md",
         "ref": "main"
       },
       "tags": [
@@ -2190,8 +2190,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_logs",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-logs.md",
         "ref": "main"
       },
       "tags": [
@@ -2215,8 +2215,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_malware",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-malware.md",
         "ref": "main"
       },
       "tags": [
@@ -2240,8 +2240,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_military_strategy",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-military-strategy.md",
         "ref": "main"
       },
       "tags": [
@@ -2265,8 +2265,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_mistakes",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-mistakes.md",
         "ref": "main"
       },
       "tags": [
@@ -2290,8 +2290,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_paper",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-paper.md",
         "ref": "main"
       },
       "tags": [
@@ -2315,8 +2315,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_paper_simple",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-paper-simple.md",
         "ref": "main"
       },
       "tags": [
@@ -2340,8 +2340,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_patent",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-patent.md",
         "ref": "main"
       },
       "tags": [
@@ -2365,8 +2365,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_personality",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-personality.md",
         "ref": "main"
       },
       "tags": [
@@ -2390,8 +2390,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_presentation",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-presentation.md",
         "ref": "main"
       },
       "tags": [
@@ -2415,8 +2415,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_product_feedback",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-product-feedback.md",
         "ref": "main"
       },
       "tags": [
@@ -2440,8 +2440,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_proposition",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-proposition.md",
         "ref": "main"
       },
       "tags": [
@@ -2465,8 +2465,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_prose",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-prose.md",
         "ref": "main"
       },
       "tags": [
@@ -2490,8 +2490,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_prose_json",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-prose-json.md",
         "ref": "main"
       },
       "tags": [
@@ -2515,8 +2515,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_prose_pinker",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-prose-pinker.md",
         "ref": "main"
       },
       "tags": [
@@ -2540,8 +2540,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_risk",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-risk.md",
         "ref": "main"
       },
       "tags": [
@@ -2565,8 +2565,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_sales_call",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-sales-call.md",
         "ref": "main"
       },
       "tags": [
@@ -2590,8 +2590,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_spiritual_text",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-spiritual-text.md",
         "ref": "main"
       },
       "tags": [
@@ -2615,8 +2615,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_tech_impact",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-tech-impact.md",
         "ref": "main"
       },
       "tags": [
@@ -2640,8 +2640,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_terraform_plan",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-terraform-plan.md",
         "ref": "main"
       },
       "tags": [
@@ -2665,8 +2665,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_threat_report",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-threat-report.md",
         "ref": "main"
       },
       "tags": [
@@ -2690,8 +2690,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_threat_report_cmds",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-threat-report-cmds.md",
         "ref": "main"
       },
       "tags": [
@@ -2715,8 +2715,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/analyze_threat_report_trends",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/analyze-threat-report-trends.md",
         "ref": "main"
       },
       "tags": [
@@ -2740,8 +2740,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/answer_interview_question",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/answer-interview-question.md",
         "ref": "main"
       },
       "tags": [
@@ -2765,8 +2765,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/apply_ul_tags",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/apply-ul-tags.md",
         "ref": "main"
       },
       "tags": [
@@ -2790,8 +2790,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/arbiter-create-ideal",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/arbiter-create-ideal.md",
         "ref": "main"
       },
       "tags": [
@@ -2814,8 +2814,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/arbiter-evaluate-quality",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/arbiter-evaluate-quality.md",
         "ref": "main"
       },
       "tags": [
@@ -2838,8 +2838,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/arbiter-general-evaluator",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/arbiter-general-evaluator.md",
         "ref": "main"
       },
       "tags": [
@@ -2862,8 +2862,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/arbiter-run-prompt",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/arbiter-run-prompt.md",
         "ref": "main"
       },
       "tags": [
@@ -2886,8 +2886,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/ask_secure_by_design_questions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/ask-secure-by-design-questions.md",
         "ref": "main"
       },
       "tags": [
@@ -2911,8 +2911,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/ask_uncle_duke",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/ask-uncle-duke.md",
         "ref": "main"
       },
       "tags": [
@@ -2936,8 +2936,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/capture_thinkers_work",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/capture-thinkers-work.md",
         "ref": "main"
       },
       "tags": [
@@ -2961,8 +2961,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/check_agreement",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/check-agreement.md",
         "ref": "main"
       },
       "tags": [
@@ -2986,8 +2986,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/check_falsifiability",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/check-falsifiability.md",
         "ref": "main"
       },
       "tags": [
@@ -3011,8 +3011,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/clean_text",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/clean-text.md",
         "ref": "main"
       },
       "tags": [
@@ -3036,8 +3036,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/coding_master",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/coding-master.md",
         "ref": "main"
       },
       "tags": [
@@ -3061,8 +3061,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/compare_and_contrast",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/compare-and-contrast.md",
         "ref": "main"
       },
       "tags": [
@@ -3086,8 +3086,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/concall_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/concall-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -3111,8 +3111,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/convert_to_markdown",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/convert-to-markdown.md",
         "ref": "main"
       },
       "tags": [
@@ -3136,8 +3136,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_5_sentence_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-5-sentence-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -3161,8 +3161,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_academic_paper",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-academic-paper.md",
         "ref": "main"
       },
       "tags": [
@@ -3186,8 +3186,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_ai_jobs_analysis",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-ai-jobs-analysis.md",
         "ref": "main"
       },
       "tags": [
@@ -3197,31 +3197,6 @@
         "jobs"
       ],
       "installTarget": "~/.claude/skills/Fabric/Patterns/create_ai_jobs_analysis/",
-      "configTarget": null
-    },
-    "crowbar/pattern-create_aphorisms": {
-      "name": "create_aphorisms",
-      "slug": "crowbar/pattern-create_aphorisms",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "You are an expert finder and printer of existing, known aphorisms.",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_aphorisms",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "create",
-        "aphorisms"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/create_aphorisms/",
       "configTarget": null
     },
     "crowbar/pattern-create_article_from_idea": {
@@ -3236,8 +3211,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_article_from_idea",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-article-from-idea.md",
         "ref": "main"
       },
       "tags": [
@@ -3261,8 +3236,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_art_prompt",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-art-prompt.md",
         "ref": "main"
       },
       "tags": [
@@ -3286,8 +3261,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_bd_issue",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-bd-issue.md",
         "ref": "main"
       },
       "tags": [
@@ -3311,8 +3286,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_better_frame",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-better-frame.md",
         "ref": "main"
       },
       "tags": [
@@ -3336,8 +3311,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_clint_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-clint-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -3361,8 +3336,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_coding_feature",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-coding-feature.md",
         "ref": "main"
       },
       "tags": [
@@ -3386,8 +3361,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_coding_project",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-coding-project.md",
         "ref": "main"
       },
       "tags": [
@@ -3411,8 +3386,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_command",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-command.md",
         "ref": "main"
       },
       "tags": [
@@ -3436,8 +3411,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_conceptmap",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-conceptmap.md",
         "ref": "main"
       },
       "tags": [
@@ -3461,8 +3436,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_cyber_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-cyber-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -3486,8 +3461,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_design_document",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-design-document.md",
         "ref": "main"
       },
       "tags": [
@@ -3511,8 +3486,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_design_system",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-design-system.md",
         "ref": "main"
       },
       "tags": [
@@ -3536,8 +3511,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_diy",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-diy.md",
         "ref": "main"
       },
       "tags": [
@@ -3561,8 +3536,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_excalidraw_visualization",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-excalidraw-visualization.md",
         "ref": "main"
       },
       "tags": [
@@ -3586,8 +3561,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_flash_cards",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-flash-cards.md",
         "ref": "main"
       },
       "tags": [
@@ -3611,8 +3586,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_formal_email",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-formal-email.md",
         "ref": "main"
       },
       "tags": [
@@ -3636,8 +3611,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_git_diff_commit",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-git-diff-commit.md",
         "ref": "main"
       },
       "tags": [
@@ -3661,8 +3636,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_golden_rules",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-golden-rules.md",
         "ref": "main"
       },
       "tags": [
@@ -3686,8 +3661,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_graph_from_input",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-graph-from-input.md",
         "ref": "main"
       },
       "tags": [
@@ -3711,8 +3686,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_hormozi_offer",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-hormozi-offer.md",
         "ref": "main"
       },
       "tags": [
@@ -3736,8 +3711,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_idea_compass",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-idea-compass.md",
         "ref": "main"
       },
       "tags": [
@@ -3761,8 +3736,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_investigation_visualization",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-investigation-visualization.md",
         "ref": "main"
       },
       "tags": [
@@ -3786,8 +3761,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_keynote",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-keynote.md",
         "ref": "main"
       },
       "tags": [
@@ -3811,8 +3786,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_loe_document",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-loe-document.md",
         "ref": "main"
       },
       "tags": [
@@ -3836,8 +3811,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_logo",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-logo.md",
         "ref": "main"
       },
       "tags": [
@@ -3861,8 +3836,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_markmap_visualization",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-markmap-visualization.md",
         "ref": "main"
       },
       "tags": [
@@ -3886,8 +3861,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_mermaid_visualization",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-mermaid-visualization.md",
         "ref": "main"
       },
       "tags": [
@@ -3911,8 +3886,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_mermaid_visualization_for_github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-mermaid-visualization-for-github.md",
         "ref": "main"
       },
       "tags": [
@@ -3936,8 +3911,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_micro_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-micro-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -3961,8 +3936,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_mnemonic_phrases",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-mnemonic-phrases.md",
         "ref": "main"
       },
       "tags": [
@@ -3986,8 +3961,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_network_threat_landscape",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-network-threat-landscape.md",
         "ref": "main"
       },
       "tags": [
@@ -4011,8 +3986,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_newsletter_entry",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-newsletter-entry.md",
         "ref": "main"
       },
       "tags": [
@@ -4036,8 +4011,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_npc",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-npc.md",
         "ref": "main"
       },
       "tags": [
@@ -4061,8 +4036,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_pattern",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-pattern.md",
         "ref": "main"
       },
       "tags": [
@@ -4085,8 +4060,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_podcast_image",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-podcast-image.md",
         "ref": "main"
       },
       "tags": [
@@ -4110,8 +4085,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_prd",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-prd.md",
         "ref": "main"
       },
       "tags": [
@@ -4135,8 +4110,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_prediction_block",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-prediction-block.md",
         "ref": "main"
       },
       "tags": [
@@ -4160,8 +4135,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_quiz",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-quiz.md",
         "ref": "main"
       },
       "tags": [
@@ -4185,8 +4160,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_reading_plan",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-reading-plan.md",
         "ref": "main"
       },
       "tags": [
@@ -4210,8 +4185,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_recursive_outline",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-recursive-outline.md",
         "ref": "main"
       },
       "tags": [
@@ -4235,8 +4210,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_report_finding",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-report-finding.md",
         "ref": "main"
       },
       "tags": [
@@ -4260,8 +4235,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_rpg_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-rpg-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -4285,8 +4260,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_security_update",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-security-update.md",
         "ref": "main"
       },
       "tags": [
@@ -4310,8 +4285,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_show_intro",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-show-intro.md",
         "ref": "main"
       },
       "tags": [
@@ -4335,8 +4310,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_sigma_rules",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-sigma-rules.md",
         "ref": "main"
       },
       "tags": [
@@ -4360,8 +4335,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_story_about_people_interaction",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-story-about-people-interaction.md",
         "ref": "main"
       },
       "tags": [
@@ -4385,8 +4360,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_story_about_person",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-story-about-person.md",
         "ref": "main"
       },
       "tags": [
@@ -4410,8 +4385,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_story_explanation",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-story-explanation.md",
         "ref": "main"
       },
       "tags": [
@@ -4435,8 +4410,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_stride_threat_model",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-stride-threat-model.md",
         "ref": "main"
       },
       "tags": [
@@ -4460,8 +4435,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -4485,8 +4460,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_tags",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-tags.md",
         "ref": "main"
       },
       "tags": [
@@ -4496,31 +4471,6 @@
         "tags"
       ],
       "installTarget": "~/.claude/skills/Fabric/Patterns/create_tags/",
-      "configTarget": null
-    },
-    "crowbar/pattern-create_threat_model": {
-      "name": "create_threat_model",
-      "slug": "crowbar/pattern-create_threat_model",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "You are an expert in risk and threat management and cybersecurity. You specialize in creating simple, narrative-based, t",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_threat_model",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "create",
-        "threat"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/create_threat_model/",
       "configTarget": null
     },
     "crowbar/pattern-create_threat_scenarios": {
@@ -4535,8 +4485,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_threat_scenarios",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-threat-scenarios.md",
         "ref": "main"
       },
       "tags": [
@@ -4560,8 +4510,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_ttrc_graph",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-ttrc-graph.md",
         "ref": "main"
       },
       "tags": [
@@ -4585,8 +4535,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_ttrc_narrative",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-ttrc-narrative.md",
         "ref": "main"
       },
       "tags": [
@@ -4610,8 +4560,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_upgrade_pack",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-upgrade-pack.md",
         "ref": "main"
       },
       "tags": [
@@ -4635,8 +4585,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_user_story",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-user-story.md",
         "ref": "main"
       },
       "tags": [
@@ -4660,8 +4610,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_video_chapters",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-video-chapters.md",
         "ref": "main"
       },
       "tags": [
@@ -4685,8 +4635,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/create_visualization",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/create-visualization.md",
         "ref": "main"
       },
       "tags": [
@@ -4710,8 +4660,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/detect_mind_virus",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/detect-mind-virus.md",
         "ref": "main"
       },
       "tags": [
@@ -4735,8 +4685,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/dialog_with_socrates",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/dialog-with-socrates.md",
         "ref": "main"
       },
       "tags": [
@@ -4760,8 +4710,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/enrich_blog_post",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/enrich-blog-post.md",
         "ref": "main"
       },
       "tags": [
@@ -4785,8 +4735,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/explain_code",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/explain-code.md",
         "ref": "main"
       },
       "tags": [
@@ -4810,8 +4760,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/explain_docs",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/explain-docs.md",
         "ref": "main"
       },
       "tags": [
@@ -4835,8 +4785,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/explain_math",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/explain-math.md",
         "ref": "main"
       },
       "tags": [
@@ -4860,8 +4810,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/explain_project",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/explain-project.md",
         "ref": "main"
       },
       "tags": [
@@ -4885,8 +4835,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/explain_terms",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/explain-terms.md",
         "ref": "main"
       },
       "tags": [
@@ -4910,8 +4860,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/explain_terms_and_conditions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/explain-terms-and-conditions.md",
         "ref": "main"
       },
       "tags": [
@@ -4935,8 +4885,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/export_data_as_csv",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/export-data-as-csv.md",
         "ref": "main"
       },
       "tags": [
@@ -4960,8 +4910,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_algorithm_update_recommendations",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-algorithm-update-recommendations.md",
         "ref": "main"
       },
       "tags": [
@@ -4985,8 +4935,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_all_quotes",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-all-quotes.md",
         "ref": "main"
       },
       "tags": [
@@ -5010,8 +4960,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_alpha",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-alpha.md",
         "ref": "main"
       },
       "tags": [
@@ -5035,8 +4985,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_article_wisdom",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-article-wisdom.md",
         "ref": "main"
       },
       "tags": [
@@ -5060,8 +5010,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_bd_ideas",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-bd-ideas.md",
         "ref": "main"
       },
       "tags": [
@@ -5085,8 +5035,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_book_ideas",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-book-ideas.md",
         "ref": "main"
       },
       "tags": [
@@ -5110,8 +5060,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_book_recommendations",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-book-recommendations.md",
         "ref": "main"
       },
       "tags": [
@@ -5135,8 +5085,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_business_ideas",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-business-ideas.md",
         "ref": "main"
       },
       "tags": [
@@ -5160,8 +5110,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_characters",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-characters.md",
         "ref": "main"
       },
       "tags": [
@@ -5185,8 +5135,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_controversial_ideas",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-controversial-ideas.md",
         "ref": "main"
       },
       "tags": [
@@ -5210,8 +5160,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_core_message",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-core-message.md",
         "ref": "main"
       },
       "tags": [
@@ -5235,8 +5185,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_ctf_writeup",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-ctf-writeup.md",
         "ref": "main"
       },
       "tags": [
@@ -5260,8 +5210,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_domains",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-domains.md",
         "ref": "main"
       },
       "tags": [
@@ -5285,8 +5235,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_ethical_framework",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-ethical-framework.md",
         "ref": "main"
       },
       "tags": [
@@ -5310,8 +5260,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_extraordinary_claims",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-extraordinary-claims.md",
         "ref": "main"
       },
       "tags": [
@@ -5335,8 +5285,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_ideas",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-ideas.md",
         "ref": "main"
       },
       "tags": [
@@ -5360,8 +5310,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_insights",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-insights.md",
         "ref": "main"
       },
       "tags": [
@@ -5385,8 +5335,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_insights_dm",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-insights-dm.md",
         "ref": "main"
       },
       "tags": [
@@ -5410,8 +5360,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_instructions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-instructions.md",
         "ref": "main"
       },
       "tags": [
@@ -5435,8 +5385,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_jokes",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-jokes.md",
         "ref": "main"
       },
       "tags": [
@@ -5460,8 +5410,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_latest_video",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-latest-video.md",
         "ref": "main"
       },
       "tags": [
@@ -5485,8 +5435,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_main_activities",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-main-activities.md",
         "ref": "main"
       },
       "tags": [
@@ -5510,8 +5460,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_main_idea",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-main-idea.md",
         "ref": "main"
       },
       "tags": [
@@ -5535,8 +5485,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_mcp_servers",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-mcp-servers.md",
         "ref": "main"
       },
       "tags": [
@@ -5560,8 +5510,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_most_redeeming_thing",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-most-redeeming-thing.md",
         "ref": "main"
       },
       "tags": [
@@ -5585,8 +5535,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_patterns",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-patterns.md",
         "ref": "main"
       },
       "tags": [
@@ -5610,8 +5560,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_poc",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-poc.md",
         "ref": "main"
       },
       "tags": [
@@ -5635,8 +5585,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_predictions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-predictions.md",
         "ref": "main"
       },
       "tags": [
@@ -5660,8 +5610,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_primary_problem",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-primary-problem.md",
         "ref": "main"
       },
       "tags": [
@@ -5685,8 +5635,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_primary_solution",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-primary-solution.md",
         "ref": "main"
       },
       "tags": [
@@ -5710,8 +5660,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_product_features",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-product-features.md",
         "ref": "main"
       },
       "tags": [
@@ -5735,8 +5685,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_questions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-questions.md",
         "ref": "main"
       },
       "tags": [
@@ -5760,8 +5710,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_recipe",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-recipe.md",
         "ref": "main"
       },
       "tags": [
@@ -5785,8 +5735,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_recommendations",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-recommendations.md",
         "ref": "main"
       },
       "tags": [
@@ -5810,8 +5760,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_references",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-references.md",
         "ref": "main"
       },
       "tags": [
@@ -5835,8 +5785,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_skills",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-skills.md",
         "ref": "main"
       },
       "tags": [
@@ -5860,8 +5810,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_song_meaning",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-song-meaning.md",
         "ref": "main"
       },
       "tags": [
@@ -5885,8 +5835,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_sponsors",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-sponsors.md",
         "ref": "main"
       },
       "tags": [
@@ -5910,8 +5860,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_videoid",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/extract-videoid.md",
         "ref": "main"
       },
       "tags": [
@@ -5921,131 +5871,6 @@
         "videoid"
       ],
       "installTarget": "~/.claude/skills/Fabric/Patterns/extract_videoid/",
-      "configTarget": null
-    },
-    "crowbar/pattern-extract_wisdom": {
-      "name": "extract_wisdom",
-      "slug": "crowbar/pattern-extract_wisdom",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "You extract surprising, insightful, and interesting information from text content. You are interested in insights relate",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_wisdom",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "extract",
-        "wisdom"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/extract_wisdom/",
-      "configTarget": null
-    },
-    "crowbar/pattern-extract_wisdom_agents": {
-      "name": "extract_wisdom_agents",
-      "slug": "crowbar/pattern-extract_wisdom_agents",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "You are an advanced AI system that coordinates multiple teams of AI agents that extract surprising, insightful, and inte",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_wisdom_agents",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "extract",
-        "wisdom"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/extract_wisdom_agents/",
-      "configTarget": null
-    },
-    "crowbar/pattern-extract_wisdom_dm": {
-      "name": "extract_wisdom_dm",
-      "slug": "crowbar/pattern-extract_wisdom_dm",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "// Who you are",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_wisdom_dm",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "extract",
-        "wisdom"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/extract_wisdom_dm/",
-      "configTarget": null
-    },
-    "crowbar/pattern-extract_wisdom_nometa": {
-      "name": "extract_wisdom_nometa",
-      "slug": "crowbar/pattern-extract_wisdom_nometa",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "You extract surprising, insightful, and interesting information from text content. You are interested in insights relate",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_wisdom_nometa",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "extract",
-        "wisdom"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/extract_wisdom_nometa/",
-      "configTarget": null
-    },
-    "crowbar/pattern-extract_wisdom_with_attribution": {
-      "name": "extract_wisdom_with_attribution",
-      "slug": "crowbar/pattern-extract_wisdom_with_attribution",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "You extract surprising, insightful, and interesting information from text content. You are interested in insights relate",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/extract_wisdom_with_attribution",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "extract",
-        "wisdom"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/extract_wisdom_with_attribution/",
       "configTarget": null
     },
     "crowbar/pattern-find_female_life_partner": {
@@ -6060,8 +5885,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/find_female_life_partner",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/find-female-life-partner.md",
         "ref": "main"
       },
       "tags": [
@@ -6085,8 +5910,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/find_hidden_message",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/find-hidden-message.md",
         "ref": "main"
       },
       "tags": [
@@ -6110,8 +5935,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/find_logical_fallacies",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/find-logical-fallacies.md",
         "ref": "main"
       },
       "tags": [
@@ -6135,8 +5960,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/fix_typos",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/fix-typos.md",
         "ref": "main"
       },
       "tags": [
@@ -6160,8 +5985,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/generate_code_rules",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/generate-code-rules.md",
         "ref": "main"
       },
       "tags": [
@@ -6185,8 +6010,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/get_wow_per_minute",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/get-wow-per-minute.md",
         "ref": "main"
       },
       "tags": [
@@ -6210,8 +6035,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/get_youtube_rss",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/get-youtube-rss.md",
         "ref": "main"
       },
       "tags": [
@@ -6235,8 +6060,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/greybeard_secure_prompt_engineer",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/greybeard-secure-prompt-engineer.md",
         "ref": "main"
       },
       "tags": [
@@ -6260,8 +6085,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/heal_person",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/heal-person.md",
         "ref": "main"
       },
       "tags": [
@@ -6285,8 +6110,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/humanize",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/humanize.md",
         "ref": "main"
       },
       "tags": [
@@ -6309,8 +6134,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/identify_dsrp_distinctions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/identify-dsrp-distinctions.md",
         "ref": "main"
       },
       "tags": [
@@ -6334,8 +6159,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/identify_dsrp_perspectives",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/identify-dsrp-perspectives.md",
         "ref": "main"
       },
       "tags": [
@@ -6359,8 +6184,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/identify_dsrp_relationships",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/identify-dsrp-relationships.md",
         "ref": "main"
       },
       "tags": [
@@ -6384,8 +6209,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/identify_dsrp_systems",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/identify-dsrp-systems.md",
         "ref": "main"
       },
       "tags": [
@@ -6409,8 +6234,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/identify_job_stories",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/identify-job-stories.md",
         "ref": "main"
       },
       "tags": [
@@ -6434,8 +6259,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/improve_academic_writing",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/improve-academic-writing.md",
         "ref": "main"
       },
       "tags": [
@@ -6459,8 +6284,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/improve_prompt",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/improve-prompt.md",
         "ref": "main"
       },
       "tags": [
@@ -6484,8 +6309,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/improve_report_finding",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/improve-report-finding.md",
         "ref": "main"
       },
       "tags": [
@@ -6509,8 +6334,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/improve_writing",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/improve-writing.md",
         "ref": "main"
       },
       "tags": [
@@ -6534,8 +6359,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/judge_output",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/judge-output.md",
         "ref": "main"
       },
       "tags": [
@@ -6559,8 +6384,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/label_and_rate",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/label-and-rate.md",
         "ref": "main"
       },
       "tags": [
@@ -6584,8 +6409,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/md_callout",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/md-callout.md",
         "ref": "main"
       },
       "tags": [
@@ -6608,8 +6433,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/model_as_sherlock_freud",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/model-as-sherlock-freud.md",
         "ref": "main"
       },
       "tags": [
@@ -6633,8 +6458,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/official_pattern_template",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/official-pattern-template.md",
         "ref": "main"
       },
       "tags": [
@@ -6657,8 +6482,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/predict_person_actions",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/predict-person-actions.md",
         "ref": "main"
       },
       "tags": [
@@ -6682,8 +6507,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/prepare_7s_strategy",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/prepare-7s-strategy.md",
         "ref": "main"
       },
       "tags": [
@@ -6707,8 +6532,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/provide_guidance",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/provide-guidance.md",
         "ref": "main"
       },
       "tags": [
@@ -6732,8 +6557,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/rate_ai_response",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/rate-ai-response.md",
         "ref": "main"
       },
       "tags": [
@@ -6757,8 +6582,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/rate_ai_result",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/rate-ai-result.md",
         "ref": "main"
       },
       "tags": [
@@ -6782,8 +6607,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/rate_content",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/rate-content.md",
         "ref": "main"
       },
       "tags": [
@@ -6807,8 +6632,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/rate_value",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/rate-value.md",
         "ref": "main"
       },
       "tags": [
@@ -6832,8 +6657,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/raw_query",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/raw-query.md",
         "ref": "main"
       },
       "tags": [
@@ -6843,30 +6668,6 @@
         "query"
       ],
       "installTarget": "~/.claude/skills/Fabric/Patterns/raw_query/",
-      "configTarget": null
-    },
-    "crowbar/pattern-raycast": {
-      "name": "raycast",
-      "slug": "crowbar/pattern-raycast",
-      "type": "fabric-pattern",
-      "version": "1.0.0",
-      "description": "Fabric pattern: raycast",
-      "author": {
-        "name": "Daniel Miessler",
-        "github": "danielmiessler"
-      },
-      "source": {
-        "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/raycast",
-        "ref": "main"
-      },
-      "tags": [
-        "fabric",
-        "pattern",
-        "raycast"
-      ],
-      "installTarget": "~/.claude/skills/Fabric/Patterns/raycast/",
       "configTarget": null
     },
     "crowbar/pattern-recommend_artists": {
@@ -6881,8 +6682,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/recommend_artists",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/recommend-artists.md",
         "ref": "main"
       },
       "tags": [
@@ -6906,8 +6707,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/recommend_pipeline_upgrades",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/recommend-pipeline-upgrades.md",
         "ref": "main"
       },
       "tags": [
@@ -6931,8 +6732,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/recommend_talkpanel_topics",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/recommend-talkpanel-topics.md",
         "ref": "main"
       },
       "tags": [
@@ -6956,8 +6757,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/recommend_yoga_practice",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/recommend-yoga-practice.md",
         "ref": "main"
       },
       "tags": [
@@ -6981,8 +6782,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/refine_design_document",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/refine-design-document.md",
         "ref": "main"
       },
       "tags": [
@@ -7006,8 +6807,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/review_code",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/review-code.md",
         "ref": "main"
       },
       "tags": [
@@ -7031,8 +6832,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/review_design",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/review-design.md",
         "ref": "main"
       },
       "tags": [
@@ -7056,8 +6857,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/sanitize_broken_html_to_markdown",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/sanitize-broken-html-to-markdown.md",
         "ref": "main"
       },
       "tags": [
@@ -7081,8 +6882,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/show_fabric_options_markmap",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/show-fabric-options-markmap.md",
         "ref": "main"
       },
       "tags": [
@@ -7105,8 +6906,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/solve_with_cot",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/solve-with-cot.md",
         "ref": "main"
       },
       "tags": [
@@ -7130,8 +6931,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/suggest_gt_command",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/suggest-gt-command.md",
         "ref": "main"
       },
       "tags": [
@@ -7155,8 +6956,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/suggest_openclaw_pattern",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/suggest-openclaw-pattern.md",
         "ref": "main"
       },
       "tags": [
@@ -7180,8 +6981,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/suggest_pattern",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/suggest-pattern.md",
         "ref": "main"
       },
       "tags": [
@@ -7204,8 +7005,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize.md",
         "ref": "main"
       },
       "tags": [
@@ -7228,8 +7029,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_board_meeting",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-board-meeting.md",
         "ref": "main"
       },
       "tags": [
@@ -7253,8 +7054,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_debate",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-debate.md",
         "ref": "main"
       },
       "tags": [
@@ -7278,8 +7079,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_git_changes",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-git-changes.md",
         "ref": "main"
       },
       "tags": [
@@ -7303,8 +7104,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_git_diff",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-git-diff.md",
         "ref": "main"
       },
       "tags": [
@@ -7328,8 +7129,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_lecture",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-lecture.md",
         "ref": "main"
       },
       "tags": [
@@ -7353,8 +7154,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_legislation",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-legislation.md",
         "ref": "main"
       },
       "tags": [
@@ -7378,8 +7179,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_meeting",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-meeting.md",
         "ref": "main"
       },
       "tags": [
@@ -7403,8 +7204,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_micro",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-micro.md",
         "ref": "main"
       },
       "tags": [
@@ -7428,8 +7229,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_newsletter",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-newsletter.md",
         "ref": "main"
       },
       "tags": [
@@ -7453,8 +7254,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_paper",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-paper.md",
         "ref": "main"
       },
       "tags": [
@@ -7478,8 +7279,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_prompt",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-prompt.md",
         "ref": "main"
       },
       "tags": [
@@ -7503,8 +7304,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_pull-requests",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-pull-requests.md",
         "ref": "main"
       },
       "tags": [
@@ -7528,8 +7329,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/summarize_rpg_session",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/summarize-rpg-session.md",
         "ref": "main"
       },
       "tags": [
@@ -7553,8 +7354,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/threshold",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/threshold.md",
         "ref": "main"
       },
       "tags": [
@@ -7577,8 +7378,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/to_flashcards",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/to-flashcards.md",
         "ref": "main"
       },
       "tags": [
@@ -7601,8 +7402,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/transcribe_minutes",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/transcribe-minutes.md",
         "ref": "main"
       },
       "tags": [
@@ -7626,8 +7427,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/translate",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/translate.md",
         "ref": "main"
       },
       "tags": [
@@ -7650,8 +7451,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/tweet",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/tweet.md",
         "ref": "main"
       },
       "tags": [
@@ -7674,8 +7475,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_analyze_challenge_handling",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-analyze-challenge-handling.md",
         "ref": "main"
       },
       "tags": [
@@ -7699,8 +7500,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_check_dunning_kruger",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-check-dunning-kruger.md",
         "ref": "main"
       },
       "tags": [
@@ -7724,8 +7525,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_check_metrics",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-check-metrics.md",
         "ref": "main"
       },
       "tags": [
@@ -7749,8 +7550,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_create_h3_career",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-create-h3-career.md",
         "ref": "main"
       },
       "tags": [
@@ -7774,8 +7575,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_create_opening_sentences",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-create-opening-sentences.md",
         "ref": "main"
       },
       "tags": [
@@ -7799,8 +7600,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_describe_life_outlook",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-describe-life-outlook.md",
         "ref": "main"
       },
       "tags": [
@@ -7824,8 +7625,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_extract_intro_sentences",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-extract-intro-sentences.md",
         "ref": "main"
       },
       "tags": [
@@ -7849,8 +7650,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_extract_panel_topics",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-extract-panel-topics.md",
         "ref": "main"
       },
       "tags": [
@@ -7874,8 +7675,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_find_blindspots",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-find-blindspots.md",
         "ref": "main"
       },
       "tags": [
@@ -7899,8 +7700,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_find_negative_thinking",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-find-negative-thinking.md",
         "ref": "main"
       },
       "tags": [
@@ -7924,8 +7725,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_find_neglected_goals",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-find-neglected-goals.md",
         "ref": "main"
       },
       "tags": [
@@ -7949,8 +7750,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_give_encouragement",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-give-encouragement.md",
         "ref": "main"
       },
       "tags": [
@@ -7974,8 +7775,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_red_team_thinking",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-red-team-thinking.md",
         "ref": "main"
       },
       "tags": [
@@ -7999,8 +7800,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_threat_model_plans",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-threat-model-plans.md",
         "ref": "main"
       },
       "tags": [
@@ -8024,8 +7825,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_visualize_mission_goals_projects",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-visualize-mission-goals-projects.md",
         "ref": "main"
       },
       "tags": [
@@ -8049,8 +7850,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/t_year_in_review",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/t-year-in-review.md",
         "ref": "main"
       },
       "tags": [
@@ -8074,8 +7875,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/ultimate_law_safety",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/ultimate-law-safety.md",
         "ref": "main"
       },
       "tags": [
@@ -8099,8 +7900,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_essay",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-essay.md",
         "ref": "main"
       },
       "tags": [
@@ -8124,8 +7925,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_essay_pg",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-essay-pg.md",
         "ref": "main"
       },
       "tags": [
@@ -8149,8 +7950,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_hackerone_report",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-hackerone-report.md",
         "ref": "main"
       },
       "tags": [
@@ -8174,8 +7975,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_latex",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-latex.md",
         "ref": "main"
       },
       "tags": [
@@ -8199,8 +8000,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_micro_essay",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-micro-essay.md",
         "ref": "main"
       },
       "tags": [
@@ -8224,8 +8025,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_nuclei_template_rule",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-nuclei-template-rule.md",
         "ref": "main"
       },
       "tags": [
@@ -8249,8 +8050,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_pull-request",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-pull-request.md",
         "ref": "main"
       },
       "tags": [
@@ -8274,8 +8075,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/write_semgrep_rule",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/write-semgrep-rule.md",
         "ref": "main"
       },
       "tags": [
@@ -8299,8 +8100,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "danielmiessler/fabric",
-        "path": "patterns/youtube_summary",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/patterns/youtube-summary.md",
         "ref": "main"
       },
       "tags": [
@@ -8324,9 +8125,9 @@
       },
       "source": {
         "type": "local",
-        "repo": "",
+        "repo": "txmyer-dev/crowbar-market",
         "path": "",
-        "ref": ""
+        "ref": "main"
       },
       "tags": [
         "mcp",
@@ -8359,9 +8160,9 @@
       },
       "source": {
         "type": "local",
-        "repo": "",
+        "repo": "txmyer-dev/crowbar-market",
         "path": "",
-        "ref": ""
+        "ref": "main"
       },
       "tags": [
         "mcp",
@@ -8389,8 +8190,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/ContentRepurpose",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/ContentRepurpose",
         "ref": "main"
       },
       "tags": [
@@ -8423,8 +8224,8 @@
       },
       "source": {
         "type": "github",
-        "repo": "txmyer-dev/Ekko",
-        "path": "skills/InboxCleaner",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/InboxCleaner",
         "ref": "main"
       },
       "tags": [
@@ -8460,11 +8261,23 @@
         "path": "skills/marketing/ab-test-setup",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "experimentation", "ab-testing", "analytics"],
+      "tags": [
+        "marketing",
+        "cro",
+        "experimentation",
+        "ab-testing",
+        "analytics"
+      ],
       "installTarget": "~/.claude/skills/marketing/ab-test-setup/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["a/b test", "split test", "experiment", "multivariate test", "hypothesis"]
+      "triggers": [
+        "a/b test",
+        "split test",
+        "experiment",
+        "multivariate test",
+        "hypothesis"
+      ]
     },
     "crowbar/ad-creative": {
       "name": "Ad Creative",
@@ -8482,11 +8295,24 @@
         "path": "skills/marketing/ad-creative",
         "ref": "main"
       },
-      "tags": ["marketing", "ads", "creative", "copywriting", "paid-media"],
+      "tags": [
+        "marketing",
+        "ads",
+        "creative",
+        "copywriting",
+        "paid-media"
+      ],
       "installTarget": "~/.claude/skills/marketing/ad-creative/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["ad copy", "ad creative", "generate headlines", "RSA headlines", "bulk ad copy", "creative testing"]
+      "triggers": [
+        "ad copy",
+        "ad creative",
+        "generate headlines",
+        "RSA headlines",
+        "bulk ad copy",
+        "creative testing"
+      ]
     },
     "crowbar/ai-seo": {
       "name": "AI SEO",
@@ -8504,11 +8330,28 @@
         "path": "skills/marketing/ai-seo",
         "ref": "main"
       },
-      "tags": ["marketing", "seo", "ai", "llm", "search", "aeo", "geo"],
+      "tags": [
+        "marketing",
+        "seo",
+        "ai",
+        "llm",
+        "search",
+        "aeo",
+        "geo"
+      ],
       "installTarget": "~/.claude/skills/marketing/ai-seo/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["AI SEO", "AEO", "GEO", "LLMO", "answer engine optimization", "AI Overviews", "optimize for ChatGPT", "AI citations"]
+      "triggers": [
+        "AI SEO",
+        "AEO",
+        "GEO",
+        "LLMO",
+        "answer engine optimization",
+        "AI Overviews",
+        "optimize for ChatGPT",
+        "AI citations"
+      ]
     },
     "crowbar/analytics-tracking": {
       "name": "Analytics Tracking",
@@ -8526,11 +8369,27 @@
         "path": "skills/marketing/analytics-tracking",
         "ref": "main"
       },
-      "tags": ["marketing", "analytics", "tracking", "ga4", "gtm", "measurement"],
+      "tags": [
+        "marketing",
+        "analytics",
+        "tracking",
+        "ga4",
+        "gtm",
+        "measurement"
+      ],
       "installTarget": "~/.claude/skills/marketing/analytics-tracking/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["set up tracking", "GA4", "Google Analytics", "conversion tracking", "event tracking", "UTM parameters", "tag manager", "GTM"]
+      "triggers": [
+        "set up tracking",
+        "GA4",
+        "Google Analytics",
+        "conversion tracking",
+        "event tracking",
+        "UTM parameters",
+        "tag manager",
+        "GTM"
+      ]
     },
     "crowbar/churn-prevention": {
       "name": "Churn Prevention",
@@ -8548,11 +8407,26 @@
         "path": "skills/marketing/churn-prevention",
         "ref": "main"
       },
-      "tags": ["marketing", "retention", "churn", "saas", "dunning", "cancel-flow"],
+      "tags": [
+        "marketing",
+        "retention",
+        "churn",
+        "saas",
+        "dunning",
+        "cancel-flow"
+      ],
       "installTarget": "~/.claude/skills/marketing/churn-prevention/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["churn", "cancel flow", "save offer", "dunning", "failed payment recovery", "win-back", "retention"]
+      "triggers": [
+        "churn",
+        "cancel flow",
+        "save offer",
+        "dunning",
+        "failed payment recovery",
+        "win-back",
+        "retention"
+      ]
     },
     "crowbar/cold-email": {
       "name": "Cold Email",
@@ -8570,11 +8444,25 @@
         "path": "skills/marketing/cold-email",
         "ref": "main"
       },
-      "tags": ["marketing", "email", "outreach", "sales", "prospecting", "sdr"],
+      "tags": [
+        "marketing",
+        "email",
+        "outreach",
+        "sales",
+        "prospecting",
+        "sdr"
+      ],
       "installTarget": "~/.claude/skills/marketing/cold-email/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["cold email", "prospecting email", "cold outreach", "sales email", "SDR email", "follow-up sequence"]
+      "triggers": [
+        "cold email",
+        "prospecting email",
+        "cold outreach",
+        "sales email",
+        "SDR email",
+        "follow-up sequence"
+      ]
     },
     "crowbar/competitor-alternatives": {
       "name": "Competitor & Alternative Pages",
@@ -8592,11 +8480,23 @@
         "path": "skills/marketing/competitor-alternatives",
         "ref": "main"
       },
-      "tags": ["marketing", "seo", "competitor", "comparison", "landing-pages"],
+      "tags": [
+        "marketing",
+        "seo",
+        "competitor",
+        "comparison",
+        "landing-pages"
+      ],
       "installTarget": "~/.claude/skills/marketing/competitor-alternatives/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["alternative page", "vs page", "competitor comparison", "comparison page", "competitive landing pages"]
+      "triggers": [
+        "alternative page",
+        "vs page",
+        "competitor comparison",
+        "comparison page",
+        "competitive landing pages"
+      ]
     },
     "crowbar/content-strategy": {
       "name": "Content Strategy",
@@ -8614,11 +8514,25 @@
         "path": "skills/marketing/content-strategy",
         "ref": "main"
       },
-      "tags": ["marketing", "content", "strategy", "seo", "planning", "topic-clusters"],
+      "tags": [
+        "marketing",
+        "content",
+        "strategy",
+        "seo",
+        "planning",
+        "topic-clusters"
+      ],
       "installTarget": "~/.claude/skills/marketing/content-strategy/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["content strategy", "what should I write about", "content ideas", "blog strategy", "topic clusters", "content planning"]
+      "triggers": [
+        "content strategy",
+        "what should I write about",
+        "content ideas",
+        "blog strategy",
+        "topic clusters",
+        "content planning"
+      ]
     },
     "crowbar/copy-editing": {
       "name": "Copy Editing",
@@ -8636,11 +8550,24 @@
         "path": "skills/marketing/copy-editing",
         "ref": "main"
       },
-      "tags": ["marketing", "copywriting", "editing", "review", "cro"],
+      "tags": [
+        "marketing",
+        "copywriting",
+        "editing",
+        "review",
+        "cro"
+      ],
       "installTarget": "~/.claude/skills/marketing/copy-editing/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["edit this copy", "review my copy", "copy feedback", "proofread", "polish this", "copy sweep"]
+      "triggers": [
+        "edit this copy",
+        "review my copy",
+        "copy feedback",
+        "proofread",
+        "polish this",
+        "copy sweep"
+      ]
     },
     "crowbar/copywriting": {
       "name": "Copywriting",
@@ -8658,11 +8585,24 @@
         "path": "skills/marketing/copywriting",
         "ref": "main"
       },
-      "tags": ["marketing", "copywriting", "landing-pages", "conversion", "cta"],
+      "tags": [
+        "marketing",
+        "copywriting",
+        "landing-pages",
+        "conversion",
+        "cta"
+      ],
       "installTarget": "~/.claude/skills/marketing/copywriting/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["write copy for", "improve this copy", "rewrite this page", "marketing copy", "headline help", "CTA copy"]
+      "triggers": [
+        "write copy for",
+        "improve this copy",
+        "rewrite this page",
+        "marketing copy",
+        "headline help",
+        "CTA copy"
+      ]
     },
     "crowbar/email-sequence": {
       "name": "Email Sequence",
@@ -8680,11 +8620,25 @@
         "path": "skills/marketing/email-sequence",
         "ref": "main"
       },
-      "tags": ["marketing", "email", "automation", "drip", "lifecycle", "onboarding"],
+      "tags": [
+        "marketing",
+        "email",
+        "automation",
+        "drip",
+        "lifecycle",
+        "onboarding"
+      ],
       "installTarget": "~/.claude/skills/marketing/email-sequence/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["email sequence", "drip campaign", "nurture sequence", "onboarding emails", "welcome sequence", "email automation"]
+      "triggers": [
+        "email sequence",
+        "drip campaign",
+        "nurture sequence",
+        "onboarding emails",
+        "welcome sequence",
+        "email automation"
+      ]
     },
     "crowbar/form-cro": {
       "name": "Form CRO",
@@ -8702,11 +8656,24 @@
         "path": "skills/marketing/form-cro",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "forms", "conversion", "lead-capture"],
+      "tags": [
+        "marketing",
+        "cro",
+        "forms",
+        "conversion",
+        "lead-capture"
+      ],
       "installTarget": "~/.claude/skills/marketing/form-cro/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["form optimization", "lead form", "form friction", "form fields", "form completion rate", "contact form"]
+      "triggers": [
+        "form optimization",
+        "lead form",
+        "form friction",
+        "form fields",
+        "form completion rate",
+        "contact form"
+      ]
     },
     "crowbar/free-tool-strategy": {
       "name": "Free Tool Strategy",
@@ -8724,11 +8691,24 @@
         "path": "skills/marketing/free-tool-strategy",
         "ref": "main"
       },
-      "tags": ["marketing", "engineering", "lead-generation", "seo", "tools"],
+      "tags": [
+        "marketing",
+        "engineering",
+        "lead-generation",
+        "seo",
+        "tools"
+      ],
       "installTarget": "~/.claude/skills/marketing/free-tool-strategy/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["engineering as marketing", "free tool", "marketing tool", "calculator", "generator", "lead gen tool"]
+      "triggers": [
+        "engineering as marketing",
+        "free tool",
+        "marketing tool",
+        "calculator",
+        "generator",
+        "lead gen tool"
+      ]
     },
     "crowbar/launch-strategy": {
       "name": "Launch Strategy",
@@ -8746,11 +8726,25 @@
         "path": "skills/marketing/launch-strategy",
         "ref": "main"
       },
-      "tags": ["marketing", "launch", "product-hunt", "go-to-market", "announcements"],
+      "tags": [
+        "marketing",
+        "launch",
+        "product-hunt",
+        "go-to-market",
+        "announcements"
+      ],
       "installTarget": "~/.claude/skills/marketing/launch-strategy/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["launch", "Product Hunt", "feature release", "go-to-market", "beta launch", "early access", "waitlist"]
+      "triggers": [
+        "launch",
+        "Product Hunt",
+        "feature release",
+        "go-to-market",
+        "beta launch",
+        "early access",
+        "waitlist"
+      ]
     },
     "crowbar/marketing-ideas": {
       "name": "Marketing Ideas",
@@ -8768,11 +8762,25 @@
         "path": "skills/marketing/marketing-ideas",
         "ref": "main"
       },
-      "tags": ["marketing", "strategy", "growth", "saas", "tactics", "ideas"],
+      "tags": [
+        "marketing",
+        "strategy",
+        "growth",
+        "saas",
+        "tactics",
+        "ideas"
+      ],
       "installTarget": "~/.claude/skills/marketing/marketing-ideas/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["marketing ideas", "growth ideas", "how to market", "marketing strategies", "marketing tactics", "ways to promote"]
+      "triggers": [
+        "marketing ideas",
+        "growth ideas",
+        "how to market",
+        "marketing strategies",
+        "marketing tactics",
+        "ways to promote"
+      ]
     },
     "crowbar/marketing-psychology": {
       "name": "Marketing Psychology",
@@ -8790,11 +8798,24 @@
         "path": "skills/marketing/marketing-psychology",
         "ref": "main"
       },
-      "tags": ["marketing", "psychology", "persuasion", "behavioral-science", "mental-models"],
+      "tags": [
+        "marketing",
+        "psychology",
+        "persuasion",
+        "behavioral-science",
+        "mental-models"
+      ],
       "installTarget": "~/.claude/skills/marketing/marketing-psychology/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["psychology", "mental models", "cognitive bias", "persuasion", "behavioral science", "why people buy"]
+      "triggers": [
+        "psychology",
+        "mental models",
+        "cognitive bias",
+        "persuasion",
+        "behavioral science",
+        "why people buy"
+      ]
     },
     "crowbar/onboarding-cro": {
       "name": "Onboarding CRO",
@@ -8812,11 +8833,26 @@
         "path": "skills/marketing/onboarding-cro",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "onboarding", "activation", "ux", "saas"],
+      "tags": [
+        "marketing",
+        "cro",
+        "onboarding",
+        "activation",
+        "ux",
+        "saas"
+      ],
       "installTarget": "~/.claude/skills/marketing/onboarding-cro/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["onboarding flow", "activation rate", "user activation", "first-run experience", "empty states", "onboarding checklist", "aha moment"]
+      "triggers": [
+        "onboarding flow",
+        "activation rate",
+        "user activation",
+        "first-run experience",
+        "empty states",
+        "onboarding checklist",
+        "aha moment"
+      ]
     },
     "crowbar/page-cro": {
       "name": "Page CRO",
@@ -8834,11 +8870,23 @@
         "path": "skills/marketing/page-cro",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "conversion", "landing-pages", "optimization"],
+      "tags": [
+        "marketing",
+        "cro",
+        "conversion",
+        "landing-pages",
+        "optimization"
+      ],
       "installTarget": "~/.claude/skills/marketing/page-cro/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["CRO", "conversion rate optimization", "this page isn't converting", "improve conversions", "why isn't this page working"]
+      "triggers": [
+        "CRO",
+        "conversion rate optimization",
+        "this page isn't converting",
+        "improve conversions",
+        "why isn't this page working"
+      ]
     },
     "crowbar/paid-ads": {
       "name": "Paid Ads",
@@ -8856,11 +8904,27 @@
         "path": "skills/marketing/paid-ads",
         "ref": "main"
       },
-      "tags": ["marketing", "ads", "ppc", "paid-media", "google-ads", "meta-ads", "linkedin-ads"],
+      "tags": [
+        "marketing",
+        "ads",
+        "ppc",
+        "paid-media",
+        "google-ads",
+        "meta-ads",
+        "linkedin-ads"
+      ],
       "installTarget": "~/.claude/skills/marketing/paid-ads/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["PPC", "paid media", "ROAS", "CPA", "ad campaign", "retargeting", "audience targeting"]
+      "triggers": [
+        "PPC",
+        "paid media",
+        "ROAS",
+        "CPA",
+        "ad campaign",
+        "retargeting",
+        "audience targeting"
+      ]
     },
     "crowbar/paywall-upgrade-cro": {
       "name": "Paywall & Upgrade CRO",
@@ -8878,11 +8942,27 @@
         "path": "skills/marketing/paywall-upgrade-cro",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "paywall", "upsell", "freemium", "saas", "monetization"],
+      "tags": [
+        "marketing",
+        "cro",
+        "paywall",
+        "upsell",
+        "freemium",
+        "saas",
+        "monetization"
+      ],
       "installTarget": "~/.claude/skills/marketing/paywall-upgrade-cro/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["paywall", "upgrade screen", "upsell", "feature gate", "convert free to paid", "freemium conversion", "trial expiration"]
+      "triggers": [
+        "paywall",
+        "upgrade screen",
+        "upsell",
+        "feature gate",
+        "convert free to paid",
+        "freemium conversion",
+        "trial expiration"
+      ]
     },
     "crowbar/popup-cro": {
       "name": "Popup CRO",
@@ -8900,11 +8980,25 @@
         "path": "skills/marketing/popup-cro",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "popups", "modals", "lead-capture", "exit-intent"],
+      "tags": [
+        "marketing",
+        "cro",
+        "popups",
+        "modals",
+        "lead-capture",
+        "exit-intent"
+      ],
       "installTarget": "~/.claude/skills/marketing/popup-cro/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["exit intent", "popup conversions", "modal optimization", "lead capture popup", "email popup", "announcement banner"]
+      "triggers": [
+        "exit intent",
+        "popup conversions",
+        "modal optimization",
+        "lead capture popup",
+        "email popup",
+        "announcement banner"
+      ]
     },
     "crowbar/pricing-strategy": {
       "name": "Pricing Strategy",
@@ -8922,11 +9016,27 @@
         "path": "skills/marketing/pricing-strategy",
         "ref": "main"
       },
-      "tags": ["marketing", "pricing", "monetization", "saas", "packaging", "freemium"],
+      "tags": [
+        "marketing",
+        "pricing",
+        "monetization",
+        "saas",
+        "packaging",
+        "freemium"
+      ],
       "installTarget": "~/.claude/skills/marketing/pricing-strategy/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["pricing", "pricing tiers", "freemium", "free trial", "packaging", "price increase", "value metric", "willingness to pay"]
+      "triggers": [
+        "pricing",
+        "pricing tiers",
+        "freemium",
+        "free trial",
+        "packaging",
+        "price increase",
+        "value metric",
+        "willingness to pay"
+      ]
     },
     "crowbar/product-marketing-context": {
       "name": "Product Marketing Context",
@@ -8944,11 +9054,23 @@
         "path": "skills/marketing/product-marketing-context",
         "ref": "main"
       },
-      "tags": ["marketing", "positioning", "context", "product-marketing", "foundation"],
+      "tags": [
+        "marketing",
+        "positioning",
+        "context",
+        "product-marketing",
+        "foundation"
+      ],
       "installTarget": "~/.claude/skills/marketing/product-marketing-context/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["product context", "marketing context", "set up context", "positioning", "product marketing"]
+      "triggers": [
+        "product context",
+        "marketing context",
+        "set up context",
+        "positioning",
+        "product marketing"
+      ]
     },
     "crowbar/programmatic-seo": {
       "name": "Programmatic SEO",
@@ -8966,11 +9088,25 @@
         "path": "skills/marketing/programmatic-seo",
         "ref": "main"
       },
-      "tags": ["marketing", "seo", "programmatic", "templates", "scale", "automation"],
+      "tags": [
+        "marketing",
+        "seo",
+        "programmatic",
+        "templates",
+        "scale",
+        "automation"
+      ],
       "installTarget": "~/.claude/skills/marketing/programmatic-seo/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["programmatic SEO", "template pages", "pages at scale", "directory pages", "location pages", "comparison pages"]
+      "triggers": [
+        "programmatic SEO",
+        "template pages",
+        "pages at scale",
+        "directory pages",
+        "location pages",
+        "comparison pages"
+      ]
     },
     "crowbar/referral-program": {
       "name": "Referral Program",
@@ -8988,11 +9124,26 @@
         "path": "skills/marketing/referral-program",
         "ref": "main"
       },
-      "tags": ["marketing", "referral", "affiliate", "viral", "word-of-mouth", "growth"],
+      "tags": [
+        "marketing",
+        "referral",
+        "affiliate",
+        "viral",
+        "word-of-mouth",
+        "growth"
+      ],
       "installTarget": "~/.claude/skills/marketing/referral-program/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["referral", "affiliate", "ambassador", "word of mouth", "viral loop", "refer a friend", "partner program"]
+      "triggers": [
+        "referral",
+        "affiliate",
+        "ambassador",
+        "word of mouth",
+        "viral loop",
+        "refer a friend",
+        "partner program"
+      ]
     },
     "crowbar/revops": {
       "name": "RevOps",
@@ -9010,11 +9161,27 @@
         "path": "skills/marketing/revops",
         "ref": "main"
       },
-      "tags": ["marketing", "revops", "sales", "crm", "lead-scoring", "pipeline"],
+      "tags": [
+        "marketing",
+        "revops",
+        "sales",
+        "crm",
+        "lead-scoring",
+        "pipeline"
+      ],
       "installTarget": "~/.claude/skills/marketing/revops/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["RevOps", "revenue operations", "lead scoring", "lead routing", "MQL", "SQL", "pipeline stages", "CRM automation"]
+      "triggers": [
+        "RevOps",
+        "revenue operations",
+        "lead scoring",
+        "lead routing",
+        "MQL",
+        "SQL",
+        "pipeline stages",
+        "CRM automation"
+      ]
     },
     "crowbar/sales-enablement": {
       "name": "Sales Enablement",
@@ -9032,11 +9199,26 @@
         "path": "skills/marketing/sales-enablement",
         "ref": "main"
       },
-      "tags": ["marketing", "sales", "enablement", "pitch-deck", "collateral", "demo"],
+      "tags": [
+        "marketing",
+        "sales",
+        "enablement",
+        "pitch-deck",
+        "collateral",
+        "demo"
+      ],
       "installTarget": "~/.claude/skills/marketing/sales-enablement/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["sales deck", "pitch deck", "one-pager", "objection handling", "ROI calculator", "demo script", "sales playbook"]
+      "triggers": [
+        "sales deck",
+        "pitch deck",
+        "one-pager",
+        "objection handling",
+        "ROI calculator",
+        "demo script",
+        "sales playbook"
+      ]
     },
     "crowbar/schema-markup": {
       "name": "Schema Markup",
@@ -9054,11 +9236,26 @@
         "path": "skills/marketing/schema-markup",
         "ref": "main"
       },
-      "tags": ["marketing", "seo", "schema", "structured-data", "json-ld", "rich-snippets"],
+      "tags": [
+        "marketing",
+        "seo",
+        "schema",
+        "structured-data",
+        "json-ld",
+        "rich-snippets"
+      ],
       "installTarget": "~/.claude/skills/marketing/schema-markup/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["schema markup", "structured data", "JSON-LD", "rich snippets", "schema.org", "FAQ schema", "product schema"]
+      "triggers": [
+        "schema markup",
+        "structured data",
+        "JSON-LD",
+        "rich snippets",
+        "schema.org",
+        "FAQ schema",
+        "product schema"
+      ]
     },
     "crowbar/seo-audit": {
       "name": "SEO Audit",
@@ -9076,11 +9273,26 @@
         "path": "skills/marketing/seo-audit",
         "ref": "main"
       },
-      "tags": ["marketing", "seo", "audit", "technical-seo", "on-page", "meta-tags"],
+      "tags": [
+        "marketing",
+        "seo",
+        "audit",
+        "technical-seo",
+        "on-page",
+        "meta-tags"
+      ],
       "installTarget": "~/.claude/skills/marketing/seo-audit/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["SEO audit", "technical SEO", "why am I not ranking", "SEO issues", "on-page SEO", "meta tags review", "SEO health check"]
+      "triggers": [
+        "SEO audit",
+        "technical SEO",
+        "why am I not ranking",
+        "SEO issues",
+        "on-page SEO",
+        "meta tags review",
+        "SEO health check"
+      ]
     },
     "crowbar/signup-flow-cro": {
       "name": "Signup Flow CRO",
@@ -9098,11 +9310,24 @@
         "path": "skills/marketing/signup-flow-cro",
         "ref": "main"
       },
-      "tags": ["marketing", "cro", "signup", "registration", "onboarding", "conversion"],
+      "tags": [
+        "marketing",
+        "cro",
+        "signup",
+        "registration",
+        "onboarding",
+        "conversion"
+      ],
       "installTarget": "~/.claude/skills/marketing/signup-flow-cro/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["signup conversions", "registration friction", "signup form optimization", "free trial signup", "reduce signup dropoff"]
+      "triggers": [
+        "signup conversions",
+        "registration friction",
+        "signup form optimization",
+        "free trial signup",
+        "reduce signup dropoff"
+      ]
     },
     "crowbar/site-architecture": {
       "name": "Site Architecture",
@@ -9120,11 +9345,26 @@
         "path": "skills/marketing/site-architecture",
         "ref": "main"
       },
-      "tags": ["marketing", "architecture", "navigation", "url-structure", "information-architecture", "sitemap"],
+      "tags": [
+        "marketing",
+        "architecture",
+        "navigation",
+        "url-structure",
+        "information-architecture",
+        "sitemap"
+      ],
       "installTarget": "~/.claude/skills/marketing/site-architecture/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["sitemap", "site structure", "page hierarchy", "information architecture", "navigation design", "URL structure", "internal linking"]
+      "triggers": [
+        "sitemap",
+        "site structure",
+        "page hierarchy",
+        "information architecture",
+        "navigation design",
+        "URL structure",
+        "internal linking"
+      ]
     },
     "crowbar/social-content": {
       "name": "Social Content",
@@ -9142,11 +9382,641 @@
         "path": "skills/marketing/social-content",
         "ref": "main"
       },
-      "tags": ["marketing", "social-media", "content", "linkedin", "twitter", "engagement"],
+      "tags": [
+        "marketing",
+        "social-media",
+        "content",
+        "linkedin",
+        "twitter",
+        "engagement"
+      ],
       "installTarget": "~/.claude/skills/marketing/social-content/",
       "configTarget": "skill-index.json",
       "tier": "optional",
-      "triggers": ["LinkedIn post", "Twitter thread", "social media", "content calendar", "social scheduling", "viral content"]
+      "triggers": [
+        "LinkedIn post",
+        "Twitter thread",
+        "social media",
+        "content calendar",
+        "social scheduling",
+        "viral content"
+      ]
+    },
+    "crowbar/asyncworker": {
+      "name": "AsyncWorker",
+      "slug": "crowbar/asyncworker",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Dispatch tasks to the VPS async worker for background processing",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/AsyncWorker",
+        "ref": "main"
+      },
+      "tags": [
+        "async",
+        "VPS task",
+        "remote task",
+        "background work"
+      ],
+      "installTarget": "~/.claude/skills/AsyncWorker/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "async",
+        "VPS task",
+        "remote task",
+        "background work",
+        "delegate to VPS"
+      ]
+    },
+    "crowbar/cloudflare": {
+      "name": "Cloudflare",
+      "slug": "crowbar/cloudflare",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Deploy Cloudflare Workers and Pages sites",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Cloudflare",
+        "ref": "main"
+      },
+      "tags": [
+        "cloudflare",
+        "worker",
+        "deploy",
+        "pages"
+      ],
+      "installTarget": "~/.claude/skills/Cloudflare/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "cloudflare",
+        "worker",
+        "deploy",
+        "pages",
+        "MCP server"
+      ]
+    },
+    "crowbar/codereview": {
+      "name": "CodeReview",
+      "slug": "crowbar/codereview",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Anti-sycophantic code review reception protocol",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/CodeReview",
+        "ref": "main"
+      },
+      "tags": [
+        "code review",
+        "PR feedback",
+        "review comments"
+      ],
+      "installTarget": "~/.claude/skills/CodeReview/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "code review",
+        "PR feedback",
+        "review comments",
+        "code critique"
+      ]
+    },
+    "crowbar/extractwisdom": {
+      "name": "ExtractWisdom",
+      "slug": "crowbar/extractwisdom",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Dynamic wisdom extraction that adapts sections to content",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/ExtractWisdom",
+        "ref": "main"
+      },
+      "tags": [
+        "extract wisdom",
+        "analyze video",
+        "analyze podcast",
+        "key takeaways"
+      ],
+      "installTarget": "~/.claude/skills/ExtractWisdom/",
+      "configTarget": "skill-index.json",
+      "tier": "always",
+      "triggers": [
+        "extract wisdom",
+        "analyze video",
+        "analyze podcast",
+        "extract insights",
+        "key takeaways"
+      ]
+    },
+    "crowbar/finance": {
+      "name": "Finance",
+      "slug": "crowbar/finance",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Personal finance management via hledger on VPS",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Finance",
+        "ref": "main"
+      },
+      "tags": [
+        "finance",
+        "hledger",
+        "transactions",
+        "balances"
+      ],
+      "installTarget": "~/.claude/skills/Finance/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "finance",
+        "hledger",
+        "transactions",
+        "balances",
+        "expenses"
+      ]
+    },
+    "crowbar/goodbye": {
+      "name": "Goodbye",
+      "slug": "crowbar/goodbye",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Session exit protocol - saves state, updates Soul/Brain/Heart",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Goodbye",
+        "ref": "main"
+      },
+      "tags": [
+        "goodbye",
+        "end session",
+        "session end"
+      ],
+      "installTarget": "~/.claude/skills/Goodbye/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "goodbye",
+        "end session",
+        "session end",
+        "signing off"
+      ]
+    },
+    "crowbar/iterativedepth": {
+      "name": "IterativeDepth",
+      "slug": "crowbar/iterativedepth",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Multi-angle iterative exploration for deeper ISC extraction",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/IterativeDepth",
+        "ref": "main"
+      },
+      "tags": [
+        "iterative depth",
+        "deep exploration",
+        "multi-angle analysis"
+      ],
+      "installTarget": "~/.claude/skills/IterativeDepth/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "iterative depth",
+        "deep exploration",
+        "multi-angle analysis",
+        "explore deeper"
+      ]
+    },
+    "crowbar/notebooklm": {
+      "name": "NotebookLM",
+      "slug": "crowbar/notebooklm",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Google NotebookLM integration via notebooklm-py CLI",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/NotebookLM",
+        "ref": "main"
+      },
+      "tags": [
+        "NotebookLM",
+        "notebook",
+        "podcast",
+        "audio overview"
+      ],
+      "installTarget": "~/.claude/skills/NotebookLM/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "NotebookLM",
+        "notebook",
+        "podcast",
+        "audio overview",
+        "research notebook"
+      ]
+    },
+    "crowbar/paralleldispatch": {
+      "name": "ParallelDispatch",
+      "slug": "crowbar/paralleldispatch",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Structured parallel agent dispatch for independent problems",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/ParallelDispatch",
+        "ref": "main"
+      },
+      "tags": [
+        "parallel",
+        "dispatch",
+        "fan-out",
+        "concurrent"
+      ],
+      "installTarget": "~/.claude/skills/ParallelDispatch/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "parallel tasks",
+        "independent bugs",
+        "fan-out work",
+        "concurrent investigation"
+      ]
+    },
+    "crowbar/parser": {
+      "name": "Parser",
+      "slug": "crowbar/parser",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Parse URLs, files, and videos to structured JSON",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Parser",
+        "ref": "main"
+      },
+      "tags": [
+        "parse",
+        "extract",
+        "URL",
+        "transcript",
+        "YouTube"
+      ],
+      "installTarget": "~/.claude/skills/Parser/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "parse",
+        "extract",
+        "URL",
+        "transcript",
+        "entities",
+        "YouTube",
+        "PDF"
+      ]
+    },
+    "crowbar/remotion": {
+      "name": "Remotion",
+      "slug": "crowbar/remotion",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Programmatic video creation with React and Remotion",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Remotion",
+        "ref": "main"
+      },
+      "tags": [
+        "video",
+        "animation",
+        "motion graphics",
+        "React video"
+      ],
+      "installTarget": "~/.claude/skills/Remotion/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "video",
+        "animation",
+        "motion graphics",
+        "video rendering",
+        "React video"
+      ]
+    },
+    "crowbar/sales": {
+      "name": "Sales",
+      "slug": "crowbar/sales",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Sales workflows - proposals, pricing, and outreach",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Sales",
+        "ref": "main"
+      },
+      "tags": [
+        "sales",
+        "proposal",
+        "pricing"
+      ],
+      "installTarget": "~/.claude/skills/Sales/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "sales",
+        "proposal",
+        "pricing"
+      ]
+    },
+    "crowbar/science": {
+      "name": "Science",
+      "slug": "crowbar/science",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Universal thinking and iteration engine based on the scientific method",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Science",
+        "ref": "main"
+      },
+      "tags": [
+        "think about",
+        "experiment",
+        "iterate",
+        "hypothesis"
+      ],
+      "installTarget": "~/.claude/skills/Science/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "think about",
+        "figure out",
+        "experiment with",
+        "test this idea",
+        "iterate on"
+      ]
+    },
+    "crowbar/snap": {
+      "name": "SNAP",
+      "slug": "crowbar/snap",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "SNAP core system skill - Personal AI Infrastructure architecture",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/SNAP",
+        "ref": "main"
+      },
+      "tags": [
+        "SNAP",
+        "core system",
+        "PAI infrastructure"
+      ],
+      "installTarget": "~/.claude/skills/SNAP/",
+      "configTarget": "skill-index.json",
+      "tier": "always",
+      "triggers": [
+        "SNAP",
+        "core system",
+        "PAI infrastructure"
+      ]
+    },
+    "crowbar/systematicdebugging": {
+      "name": "SystematicDebugging",
+      "slug": "crowbar/systematicdebugging",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "4-phase systematic debugging process for root cause analysis",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/SystematicDebugging",
+        "ref": "main"
+      },
+      "tags": [
+        "debugging",
+        "bug fix",
+        "root cause",
+        "test failure"
+      ],
+      "installTarget": "~/.claude/skills/SystematicDebugging/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "debugging",
+        "bug fix",
+        "test failure",
+        "root cause analysis",
+        "something broken"
+      ]
+    },
+    "crowbar/update": {
+      "name": "Update",
+      "slug": "crowbar/update",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Self-update protocol - refresh identity, context, and memory",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/Update",
+        "ref": "main"
+      },
+      "tags": [
+        "update",
+        "self-update",
+        "refresh context"
+      ],
+      "installTarget": "~/.claude/skills/Update/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "update yourself",
+        "self-update",
+        "refresh context",
+        "re-read soul"
+      ]
+    },
+    "crowbar/usmetrics": {
+      "name": "USMetrics",
+      "slug": "crowbar/usmetrics",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "US economic indicators - GDP, inflation, unemployment, gas prices",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/USMetrics",
+        "ref": "main"
+      },
+      "tags": [
+        "GDP",
+        "inflation",
+        "unemployment",
+        "economic metrics"
+      ],
+      "installTarget": "~/.claude/skills/USMetrics/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "GDP",
+        "inflation",
+        "unemployment",
+        "economic metrics",
+        "gas prices"
+      ]
+    },
+    "crowbar/worldthreatmodelharness": {
+      "name": "WorldThreatModelHarness",
+      "slug": "crowbar/worldthreatmodelharness",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Persistent world model system across 11 time horizons for adversarial analysis",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/WorldThreatModelHarness",
+        "ref": "main"
+      },
+      "tags": [
+        "threat model",
+        "world model",
+        "future analysis",
+        "stress test"
+      ],
+      "installTarget": "~/.claude/skills/WorldThreatModelHarness/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "threat model",
+        "world model",
+        "test idea",
+        "test strategy",
+        "future analysis"
+      ]
+    },
+    "crowbar/writestory": {
+      "name": "WriteStory",
+      "slug": "crowbar/writestory",
+      "type": "skill",
+      "version": "1.0.0",
+      "description": "Layered fiction writing system using Will Storr's storytelling science",
+      "author": {
+        "name": "Tony",
+        "github": "txmyer-dev"
+      },
+      "source": {
+        "type": "github",
+        "repo": "txmyer-dev/crowbar-market",
+        "path": "plugins/skills/WriteStory",
+        "ref": "main"
+      },
+      "tags": [
+        "write story",
+        "fiction",
+        "novel",
+        "creative writing"
+      ],
+      "installTarget": "~/.claude/skills/WriteStory/",
+      "configTarget": "skill-index.json",
+      "tier": "deferred",
+      "triggers": [
+        "write story",
+        "fiction",
+        "novel",
+        "short story",
+        "creative writing",
+        "worldbuilding"
+      ]
     }
   }
 }
