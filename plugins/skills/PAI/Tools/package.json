@@ -1,0 +1,13 @@
+{
+  "name": "tools",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.94"
+  }
+}
