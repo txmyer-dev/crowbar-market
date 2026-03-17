@@ -3,7 +3,7 @@ description: Skill set for the Paperclip Builder agent — coding, deploy, infra
 version: "1.0.0"
 
 skills:
-  - crowbar/systematicdebuggin
+  - crowbar/systematicdebugging
   - crowbar/codereview
   - crowbar/paralleldispatch
   - crowbar/createcli
