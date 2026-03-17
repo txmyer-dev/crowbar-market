@@ -12,6 +12,7 @@ const HELP = `
   install --profile <name>         Install a curated skill set
   publish <skill> [--no-push]      Push a local skill to crowbar-market
   publish --all [--no-push]        Sync all local skills to crowbar-market
+  pull-vps <skill|--all> [--host]  Pull skill(s) from VPS to crowbar-market
   remove <slug>                    Uninstall a plugin
   list [--type <type>]             List installed plugins
   search <query> [--type]          Search the registry
@@ -30,6 +31,7 @@ const HELP = `
 \x1b[1mEnv vars:\x1b[0m
   CROWBAR_MARKET_DIR   Path to local crowbar-market clone (required for publish)
   PAI_DIR              SNAP installation dir (default: ~/.claude)
+  VPS_HOST             SSH target for pull-vps (default: root@76.13.98.215)
 `;
 
 const [command, ...args] = process.argv.slice(2);
@@ -47,6 +49,7 @@ if (command === '--version' || command === '-v') {
 const commands: Record<string, () => Promise<void>> = {
   install: () => import('./commands/install').then((m) => m.install(args)),
   publish: () => import('./commands/publish').then((m) => m.publish(args)),
+  'pull-vps': () => import('./commands/pull-vps').then((m) => m.pullVps(args)),
   remove: () => import('./commands/remove').then((m) => m.remove(args)),
   list: () => import('./commands/list').then((m) => m.list(args)),
   search: () => import('./commands/search').then((m) => m.search(args)),
