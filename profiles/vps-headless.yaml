@@ -1,0 +1,25 @@
+name: vps-headless
+description: Minimal skill set for headless VPS / Claude agent deployments
+version: "1.0.0"
+
+skills:
+  # Core reasoning
+  - crowbar/research
+  - crowbar/systematicdebuggin
+  - crowbar/paralleldispatch
+  - crowbar/science
+  # Content & extraction
+  - crowbar/extractwisdom
+  - crowbar/parser
+  - crowbar/fabric
+  # Infrastructure & deployment
+  - crowbar/asyncworker
+  - crowbar/cloudflare
+  # Development
+  - crowbar/codereview
+  - crowbar/createcli
+  # SNAP core
+  - crowbar/snap
+  - crowbar/update
+  - crowbar/goodbye
+  - crowbar/agents

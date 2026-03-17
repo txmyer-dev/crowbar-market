@@ -1,16 +1,16 @@
 #!/usr/bin/env bun
 /**
- * Seed registry.json from live PAI installation
+ * Seed registry.json from live SNAP installation
  * Reads: skill-index.json, hooks/, agents/, Fabric/Patterns/, .mcp.json
- * Writes: registry.json (READ-ONLY scan — never modifies PAI files)
+ * Writes: registry.json (READ-ONLY scan — never modifies SNAP files)
  */
 
 import { readFileSync, readdirSync, existsSync, statSync } from 'fs';
-import { join, basename } from 'path';
+import { join } from 'path';
 import { homedir } from 'os';
 
 const PAI_DIR = process.env.PAI_DIR || join(homedir(), '.claude');
-const REPO = 'txmyer-dev/Ekko';
+const REPO = 'txmyer-dev/crowbar-market'; // Fixed: was txmyer-dev/Ekko (deleted)
 const AUTHOR = { name: 'Tony', github: 'txmyer-dev' };
 
 interface Plugin {
@@ -43,7 +43,7 @@ if (existsSync(skillIndexPath)) {
       version: '1.0.0',
       description: skill.fullDescription || `${skill.name} skill`,
       author: AUTHOR,
-      source: { type: 'github', repo: REPO, path: `skills/${skill.name}`, ref: 'main' },
+      source: { type: 'github', repo: REPO, path: `plugins/skills/${skill.name}`, ref: 'main' },
       tags: skill.triggers?.slice(0, 3) || [],
       installTarget: `~/.claude/skills/${skill.name}/`,
       configTarget: 'skill-index.json',
@@ -69,7 +69,7 @@ if (existsSync(hooksDir)) {
       version: '1.0.0',
       description: `${name} event hook`,
       author: AUTHOR,
-      source: { type: 'github', repo: REPO, path: `hooks/${file}`, ref: 'main' },
+      source: { type: 'github', repo: REPO, path: `plugins/hooks/${file}`, ref: 'main' },
       tags: ['hook', 'event'],
       installTarget: `~/.claude/hooks/${file}`,
       configTarget: 'settings.json',
@@ -93,7 +93,7 @@ if (existsSync(agentsDir)) {
       version: '1.0.0',
       description: `${name} agent definition`,
       author: AUTHOR,
-      source: { type: 'github', repo: REPO, path: `agents/${file}`, ref: 'main' },
+      source: { type: 'github', repo: REPO, path: `plugins/agents/${file}`, ref: 'main' },
       tags: ['agent', name.toLowerCase()],
       installTarget: `~/.claude/agents/${file}`,
       configTarget: null,
@@ -113,7 +113,6 @@ if (existsSync(patternsDir)) {
 
   for (const dir of patternDirs) {
     const slug = `crowbar/pattern-${dir}`;
-    // Try to read system.md for a description
     let description = `Fabric pattern: ${dir.replace(/_/g, ' ')}`;
     const systemMd = join(patternsDir, dir, 'system.md');
     if (existsSync(systemMd)) {
@@ -124,7 +123,6 @@ if (existsSync(patternsDir)) {
       }
     }
 
-    // Generate tags from pattern name
     const nameParts = dir.split('_').filter((p) => p.length > 2);
     const tags = ['fabric', 'pattern', ...nameParts.slice(0, 2)];
 

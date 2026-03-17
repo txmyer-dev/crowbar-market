@@ -1,0 +1,12 @@
+name: paperclip-builder
+description: Skill set for the Paperclip Builder agent — coding, deploy, infrastructure tasks
+version: "1.0.0"
+
+skills:
+  - crowbar/systematicdebuggin
+  - crowbar/codereview
+  - crowbar/paralleldispatch
+  - crowbar/createcli
+  - crowbar/cloudflare
+  - crowbar/research
+  - crowbar/snap
